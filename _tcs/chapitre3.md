@@ -2,24 +2,25 @@
 layout: chapitre
 title: "Chapitre 3: Fonctions numériques"
 permalink: /tcs/chapitre3/
+mathjax: true
 ---
 
-## Section 3.1: G9n9ralit9s
+## Section 3.1: Généralités
 
-Une fonction num9rique est une fonction $`f: D \to \mathbb{R}`$ o $`D \subseteq \mathbb{R}`$.
+Une fonction numérique est une fonction $f: D \to \mathbb{R}$ où $D \subseteq \mathbb{R}$.
 
 ## Section 3.2: Limites
 
-La limite de $`f(x)`$ quand $`x`$ tend vers $`a`$ est $`L`$, not9e $`\lim_{x \to a} f(x) = L`$.
+La limite de $f(x)$ quand $x$ tend vers $a$ est $L$, notée $\lim_{x \to a} f(x) = L$.
 
-## Section 3.3: D9riv9es
+## Section 3.3: Dérivées
 
-La d9riv9e de $`f`$ en $`x_0`$ est :
+La dérivée de $f$ en $x_0$ est :
 
-$`$$ f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h) - f(x_0)}{h} $$$`
+$$ f'(x_0) = \lim_{h \to 0} \frac{f(x_0+h) - f(x_0)}{h} $$
 
-| Fonction | D9riv9e |
+| Fonction | Dérivée |
 |---|---|
-| $`x^n`$ | $`nx^{n-1}`$ |
-| $`\sin(x)`$ | $`\cos(x)`$ |
-| $`\cos(x)`$ | $`-\sin(x)`$ |
+| $x^n$ | $nx^{n-1}$ |
+| $\sin(x)$ | $\cos(x)$ |
+| $\cos(x)$ | $-\sin(x)$ |
