@@ -2,7 +2,6 @@
 layout: chapitre
 title: "Chapitre 2: Ensembles et applications"
 permalink: /tcs/chapitre2/
-mathjax: true
 ---
 
 ## Section 2.1: Ensembles

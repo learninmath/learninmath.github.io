@@ -2,7 +2,6 @@
 layout: chapitre
 title: "Chapitre 1: Logique et raisonnement"
 permalink: /tcs/chapitre1/
-mathjax: true
 ---
 
 ## Section 1.1: Introduction

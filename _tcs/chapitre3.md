@@ -2,7 +2,6 @@
 layout: chapitre
 title: "Chapitre 3: Fonctions numériques"
 permalink: /tcs/chapitre3/
-mathjax: true
 ---
 
 ## Section 3.1: Généralités
