@@ -2,6 +2,14 @@
 layout: default
 ---
 <div class="container">
+  <div class="left-menu">
+    <h3>Chapitres TCS</h3>
+    <ul id="chapters-menu">
+      {% for chapter in site.tcs %}
+        <li><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
   <div class="content">
     {{ content }}
   </div>
@@ -40,10 +48,20 @@ layout: default
 <style>
   .container {
     display: flex;
+    justify-content: space-between;
+  }
+  .left-menu {
+    flex: 1;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+  }
+  .left-menu ul {
+    list-style-type: none;
+    padding: 0;
   }
   .content {
-    flex: 3;
-    padding-right: 20px;
+    flex: 4; /* Adjusted to give more space to content */
+    padding: 0 20px; /* Added padding on both sides */
   }
   .right-menu {
     flex: 1;
