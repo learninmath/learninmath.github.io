@@ -1,0 +1,7 @@
+main:
+  - title: "Accueil"
+    url: /
+  - title: "TCS"
+    url: /tcs/
+  - title: "2BPC"
+    url: /2bpc/
