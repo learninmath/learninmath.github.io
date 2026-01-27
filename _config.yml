@@ -13,12 +13,10 @@ search: true
 
 # Build settings
 markdown: kramdown
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      mathjax: true
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
