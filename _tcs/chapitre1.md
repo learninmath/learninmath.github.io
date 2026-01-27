@@ -2,11 +2,12 @@
 layout: chapitre
 title: "Chapitre 1: Logique et raisonnement"
 permalink: /tcs/chapitre1/
+mathjax: true
 ---
 
 ## Section 1.1: Introduction
 
-Ceci est la première section. On utilise des formules mathématiques comme $`\sqrt{a^2+b^2}`$.
+Ceci est la première section. On utilise des formules mathématiques comme $\sqrt{a^2+b^2}$.
 
 ### Sous-section 1.1.1
 
@@ -25,4 +26,4 @@ Voici un exemple de tableau :
 
 Une formule en bloc :
 
-$`$$ E = mc^2 $$$`
+$$ E = mc^2 $$
