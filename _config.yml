@@ -39,3 +39,6 @@ plugins:
 
 # Navigation
 
+collections:
+  tcs:
+    output: true

@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="content">
+    {{ content }}
+  </div>
+  <div class="right-menu">
+    <h3>Sections</h3>
+    <ul id="sections-menu">
+    </ul>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sectionsMenu = document.getElementById('sections-menu');
+    const headers = document.querySelectorAll('.content h2, .content h3');
+    
+    headers.forEach(header => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      
+      let id = header.textContent.trim().toLowerCase().replace(/\s+/g, '-');
+      header.id = id;
+      
+      a.href = '#' + id;
+      a.textContent = header.textContent;
+      
+      if(header.tagName === 'H3') {
+        li.style.marginLeft = '20px';
+      }
+      
+      li.appendChild(a);
+      sectionsMenu.appendChild(li);
+    });
+  });
+</script>
+
+<style>
+  .container {
+    display: flex;
+  }
+  .content {
+    flex: 3;
+    padding-right: 20px;
+  }
+  .right-menu {
+    flex: 1;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+  }
+  .right-menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+</style>
