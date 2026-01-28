@@ -1,6 +1,7 @@
 ---
 layout: chapitre
-title: "Chapitre 2: Ensembles et applications"
+chapter: 2
+title: "Ensembles et applications"
 permalink: /2bpc/chapitre2/
 ---
 

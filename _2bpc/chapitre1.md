@@ -1,6 +1,7 @@
 ---
 layout: chapitre
-title: "Chapitre 1: Logique et raisonnement"
+chapter: 1 
+title: "Logique et raisonnement"
 permalink: /2bpc/chapitre1/
 ---
 

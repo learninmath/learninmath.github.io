@@ -1,6 +1,7 @@
 ---
 layout: chapitre
-title: "Chapitre 3: Fonctions numériques"
+chapter: 3
+title: "Fonctions numériques"
 permalink: /tcs/chapitre3/
 ---
 
