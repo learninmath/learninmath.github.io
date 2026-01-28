@@ -2,14 +2,6 @@
 layout: default
 ---
 <div class="container">
-  <div class="left-menu">
-    <h3>Chapitres TCS</h3>
-    <ul id="chapters-menu">
-      {% for chapter in site.tcs %}
-        <li><a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
   <div class="content">
     {{ content }}
   </div>
