@@ -14,10 +14,14 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 ## Méthodes et techniques
 
 ### Raisonnement par récurrence
+Soit $p$ un entier et $I$ un intervalle.
 
-Du texte...
+Pour montrer par récurrence la proposition $\forall n\gep p: u_n\in I$, on montre ce qui suit:
 
-### Étudier la monotonie d'une suite
+ - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
+ - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
+
+### Monotonie d'une suite
 
 Voici un exemple de tableau :
 
