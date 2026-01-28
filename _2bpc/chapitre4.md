@@ -16,7 +16,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 ### Raisonnement par récurrence
 Soit $p$ un entier et $I$ un intervalle.
 
-Pour montrer par récurrence la proposition $\forall n\gep p: u_n\in I$, on montre ce qui suit:
+Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on montre ce qui suit:
 
  - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
