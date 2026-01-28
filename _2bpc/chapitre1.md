@@ -1,7 +1,7 @@
 ---
 layout: chapitre
 title: "Chapitre 1: Logique et raisonnement"
-permalink: /tcs/chapitre1/
+permalink: /2bpc/chapitre1/
 ---
 
 ## Section 1.1: Introduction

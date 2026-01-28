@@ -1,7 +1,7 @@
 ---
 layout: chapitre
 title: "Chapitre 2: Ensembles et applications"
-permalink: /tcs/chapitre2/
+permalink: /2bpc/chapitre2/
 ---
 
 ## Section 2.1: Ensembles
