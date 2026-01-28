@@ -43,3 +43,5 @@ plugins:
 collections:
   tcs:
     output: true
+  2bpc:
+    output: true
