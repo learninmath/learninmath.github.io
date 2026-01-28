@@ -7,6 +7,8 @@ permalink: /2bpc/chapitre4/
 
 ## Document PDF à remplir
 
+Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
+
 <object data="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" width="100%" height="800" type="application/pdf"></object>
 
 ## Méthodes et techniques
