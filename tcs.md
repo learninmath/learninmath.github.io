@@ -8,7 +8,7 @@ permalink: /tcs/
 
 ## Liste des chapitres
 
-<ul>
+<ul style="list-style-type: none;">
 {% for chapter in site.tcs %}
   <li>{{ chapter.chapter }}. <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
 {% endfor %}
