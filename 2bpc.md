@@ -4,6 +4,10 @@ title: 2BPC
 permalink: /2bpc/
 ---
 
-# Page 2BPC
+# 2ième Bac. PC
 
-Ceci est le contenu de la page 2BPC.
+## Liste des chapitres
+
+{% for chapter in site.2bpc %}
+- [{{ chapter.title }}]({{ chapter.url | relative_url }})
+{% endfor %}
