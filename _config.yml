@@ -40,6 +40,9 @@ plugins:
 
 # Navigation
 
+include:
+  - _2bpc/4.pdf
+
 collections:
   tcs:
     output: true
