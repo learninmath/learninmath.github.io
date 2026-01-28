@@ -8,6 +8,8 @@ permalink: /2bpc/
 
 ## Liste des chapitres
 
+<ul style="list-style-type: none;">
 {% for chapter in site.2bpc %}
-- [{{ chapter.title }}]({{ chapter.url | relative_url }})
+  <li>{{ chapter.chapter }}. <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a></li>
 {% endfor %}
+</ul>
