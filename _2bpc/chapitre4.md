@@ -7,7 +7,7 @@ permalink: /2bpc/chapitre4/
 
 ## Document PDF à remplir
 
-Ouvrir le PDF en cliquant sur <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>
+Ouvrir le PDF en cliquant sur <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i></a>.
 
 Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
@@ -24,9 +24,8 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
 {% include important.html
-content="Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, dans l'**hérédité**, le fait que $f(I)\subset I$.
-
-Ce qui donne pour tout $n\geq p$ que: $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$. "
+content="Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que: 
+$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$. "
 type="primary"%}
 
 ### Monotonie d'une suite
@@ -39,6 +38,11 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux
 - Étudier le signe de l'expression obtenue et déduire:
     - Si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite $(u_n)_{n\geq p}$ est croissante.
     - Si $\forall n\geq p:\ u_{n+1}\leq u_n$, alors la suite $(u_n)_{n\geq p}$ est décroissante.
+
+{% include important.html
+content="Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour déterminer sa monotonie, la comparaison entre $f(x)$ et $x$, pour tout $x$ de $I$.
+- Ce qui donne pour tout $n\geq p$ que: "
+type="primary"%}
 
 #### Méthode pour les suite de type $\boldsymbol{u_{n+1}=f(u_n)}$
 
