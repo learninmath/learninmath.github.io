@@ -7,7 +7,7 @@ permalink: /2bpc/chapitre4/
 
 ## Document PDF à remplir
 
-<i class="fa fa-file-pdf-o"></i> <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
+<i class="fa-solid fa-file-pdf"></i> <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
 
 Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
