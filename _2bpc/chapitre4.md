@@ -14,20 +14,23 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 ## Méthodes et techniques
 
 ### Raisonnement par récurrence
-Soit $n_0$ un entier et $I$ un intervalle.
+Soit $p$ un entier et $I$ un intervalle.
 
-Pour montrer par récurrence la proposition $\forall n\geq n_0: u_n\in I$, on montre ce qui suit:
+Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on répond au deux questions suivantes:
 
- - **Initialisation**: Vérifier que pour $n=n_0$, on $u_{n_0}\in I$.
- - **Hérédité**: Soit $n\geq n_0$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
-
- Voici un exemple:
- 
- Soit $(u_n)$ la suite définie par $u_0=2$ et $u_{n+1}=3u_n-4$ pour tout $n$ de $\mathbb{N}$.
-
- Montrer que $\forall n\in\mathbb{N}:\ u_n>\frac34$.
+ - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
+ - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
 ### Monotonie d'une suite
+
+#### Méthode générale
+
+Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux questions suivantes:
+
+- Soit $n\geq p$, calculer et factoriser $u_{n+1}-u_n$.
+- Étudier le signe de l'expression obtenir et déduire:
+    - Si $\forall n\geq p:\ u_n\leq u_{n+1}$, alors la suite $(u_n)_{n\geq p}$ est croissante.
+    - Si $\forall n\geq p:\ u_n\leq u_{n+1}$, alors la suite $(u_n)_{n\geq p}$ est croissante. 
 
 Voici un exemple de tableau :
 
