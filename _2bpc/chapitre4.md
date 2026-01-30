@@ -21,11 +21,7 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
  - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
-> ##### WARNING
->
-> Be sure that you're familiar with things like async/await and object destructuring
-> before continuing, as we'll be making use of features like these.
-{: .block-warning }
+{% include callout.html content="This is my callout. It has a border on the left whose color you define by passing a type parameter. I typically use this style of callout when I have more information that I want to share, often spanning multiple paragraphs. " type="primary" %}
 
 ### Monotonie d'une suite
 
