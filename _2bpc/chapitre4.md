@@ -41,6 +41,7 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux
 
 {% include important.html
 content="Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour déterminer sa monotonie, la comparaison entre $f(x)$ et $x$, pour tout $x$ de $I$.
+
 - Ce qui donne pour tout $n\geq p$ que: "
 type="primary"%}
 
