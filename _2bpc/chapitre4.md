@@ -16,12 +16,14 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 ### Raisonnement par récurrence
 Soit $p$ un entier et $I$ un intervalle.
 
+On considère la suite $(u_n)_{n\geq p}$.
+
 Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on répond au deux questions suivantes:
 
  - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
-Pour une suite $(u_n)_{n\geq p}$ de type $u_{n+1}=f(u_n)$, on utilise le fait que $f(I)\subset I$.
+Pour une suite de type $u_{n+1}=f(u_n)$, on utilise le fait que $f(I)\subset I$.
 
 Ce qui donne pour tout $n\geq p$ que: $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\subset I$.
 
