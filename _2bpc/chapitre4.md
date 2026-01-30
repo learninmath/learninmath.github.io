@@ -28,9 +28,9 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
 Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux questions suivantes:
 
 - Soit $n\geq p$, calculer et factoriser $u_{n+1}-u_n$.
-- Étudier le signe de l'expression obtenir et déduire:
-    - Si $\forall n\geq p:\ u_n\leq u_{n+1}$, alors la suite $(u_n)_{n\geq p}$ est croissante.
-    - Si $\forall n\geq p:\ u_n\leq u_{n+1}$, alors la suite $(u_n)_{n\geq p}$ est croissante. 
+- Étudier le signe de l'expression obtenue et déduire:
+    - Si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite $(u_n)_{n\geq p}$ est croissante.
+    - Si $\forall n\geq p:\ u_{n+1}\leq u_n$, alors la suite $(u_n)_{n\geq p}$ est décroissante. 
 
 Voici un exemple de tableau :
 
