@@ -9,7 +9,7 @@ permalink: /2bpc/chapitre4/
 
 Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
-<object data="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" width="100%" height="800" type="application/pdf"></object>
+<a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
 
 ## Méthodes et techniques
 
