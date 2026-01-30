@@ -38,7 +38,7 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux
     - Si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite $(u_n)_{n\geq p}$ est croissante.
     - Si $\forall n\geq p:\ u_{n+1}\leq u_n$, alors la suite $(u_n)_{n\geq p}$ est décroissante.
 
-#### Méthode pour les suite de type $\bm{u_{n+1}=f(u_n)}$
+#### Méthode pour les suite de type $\boldsymbol{u_{n+1}=f(u_n)}$
 
 Voici un exemple de tableau :
 
