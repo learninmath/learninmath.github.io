@@ -7,9 +7,9 @@ permalink: /2bpc/chapitre4/
 
 ## Document PDF à remplir
 
-Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
-
 <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
+
+Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
 ## Méthodes et techniques
 
