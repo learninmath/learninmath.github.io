@@ -7,7 +7,7 @@ permalink: /2bpc/chapitre4/
 
 ## Document PDF à remplir
 
-<a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
+<i class="fa fa-file-pdf-o"></i> <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.pdf" target="_blank">Ouvrir le PDF</a>
 
 Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
@@ -26,7 +26,7 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
 {% include important.html
 content="Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, dans l'**hérédité**, le fait que $f(I)\subset I$.
 
-Ce qui donne pour tout $n\geq p$ que: $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\subset I$. "
+Ce qui donne pour tout $n\geq p$ que: $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$. "
 type="primary"%}
 
 ### Monotonie d'une suite
