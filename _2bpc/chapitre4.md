@@ -14,12 +14,18 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 ## Méthodes et techniques
 
 ### Raisonnement par récurrence
-Soit $p$ un entier et $I$ un intervalle.
+Soit $n_0$ un entier et $I$ un intervalle.
 
-Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on montre ce qui suit:
+Pour montrer par récurrence la proposition $\forall n\geq n_0: u_n\in I$, on montre ce qui suit:
 
- - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
- - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
+ - **Initialisation**: Vérifier que pour $n=n_0$, on $u_{n_0}\in I$.
+ - **Hérédité**: Soit $n\geq n_0$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
+
+ Voici un exemple:
+ 
+ Soit $(u_n)$ la suite définie par $u_0=2$ et $u_{n+1}=3u_n-4$ pour tout $n$ de $\mathbb{N}$.
+
+ Montrer que $\forall n\in\mathbb{N}:\ u_n>\frac34$.
 
 ### Monotonie d'une suite
 
