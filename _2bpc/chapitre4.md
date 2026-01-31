@@ -42,6 +42,8 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond généra
 
 ### Limites des quelques suites définies explicitement
 
+#### Suite de terme général $\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}$
+
 Voici un exemple de tableau :
 
 | Entête 1 | Entête 2 |
