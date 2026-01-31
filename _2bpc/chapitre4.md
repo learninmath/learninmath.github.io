@@ -77,3 +77,9 @@ Si \\((u_n)\_{n\geq p}\\) est une suite, et \\(f\\) est une fonction définie su
 - \\(f(I)\subset I\\).
 
 Alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I\\).
+
+> [!IMPORTANT] <strong>Important</strong>
+> Pour qu'une suite \\((u_n)\_{n\geq p}\\) soit **convergente**, elle doit être:
+>- croissante et majorée.
+> ou
+>- décroissante et minorée.
