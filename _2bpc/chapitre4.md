@@ -31,8 +31,10 @@ $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$.
 
 {% include important.html content=myimp1 type="primary" %}
 
-> [!IMPORTANT] Important
-> Fancy!
+> [!IMPORTANT] "**Important**"
+> Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que: 
+>
+>$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$.
 
 ### Monotonie d'une suite
 
