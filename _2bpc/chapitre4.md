@@ -42,6 +42,28 @@ Pour déterminer la monotonie d'une suite \\((u_n)_{n\geq p}\\), on répond gén
 
 ### Limites de quelques suites
 
+#### Convergence et divergence
+
+une suite \\((u_n)\_{n\geq p}\\) est dite convergente si \\(\lim u_n\\) est égale à un réel, et elle dite divergente sinon ou s'elle n'admet pas de limite.
+
+#### Condition suffisante de convergence
+
+Si une suite \\((u_n)\_{n\geq p}\\) est:
+- croissante et majorée,
+- ou décroissante et minorée.
+
+Alors elle est **convergente**
+
+#### Critères de convergence
+
+- **Critère de gendarmes** :
+
+Si \\((u_n)\_{n\geq p}\\), \\((v_n)\_{n\geq p}\\) et \\((w_n)\_{n\geq p}\\) sont deux suites telles que:
+    - \\(\forall n\geq p:\ v_n\leq u_n\leq w_n\\).
+    - \\(\lim v_n=\lim w_n=l\\), où \\(l\\) est un réel.
+
+Alors \\(\lim u_n=l\\).
+
 #### Suite de terme général \\(\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}\\)
 
 On a pour tout \\(a\\) de \\(\mathbb{Q}^\ast\\):
@@ -61,7 +83,7 @@ On a pour tout \\(a\\) de \\(\mathbb{R}^\ast\smallsetminus\\{1\\}\\):
 
 #### Suite de type \\(\boldsymbol{u_n=f(v_n)}\\)
 
-Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et \\(f\\) est une fonction numérique tels que:
+Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et \\(f\\) est une fonction numérique telles que:
 - \\(\forall n\geq p:\ u_n=f(v_n)\\).
 - \\(\lim v_n=l\\).
 - \\(f\\) est définie et est continue en \\(l\\).
