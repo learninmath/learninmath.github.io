@@ -31,8 +31,9 @@ $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$.
 
 {% include important.html content=myimp1 type="primary" %}
 
-> [!IMPORTANT] **Important**
-> Fancy!
+!!! info "Optional Title"
+    This is the content of the info box.
+    It supports multiple lines!
 
 ### Monotonie d'une suite
 
