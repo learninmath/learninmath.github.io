@@ -54,7 +54,7 @@ En particulier, pour tout $p$ de $\mathbb{N}^\ast$:
 
 #### Suite de terme général $\boldsymbol{a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\{1\})}$
 
-On a pour tout $a$ de $\mathbb{R}^\ast\smallsetminus\{1\}$:
+On a pour tout $a$ de $\mathbb{R}^\ast\smallsetminus\\{1\\}$:
 - Si $a>1$, alors $\lim a^n=+\infty$.
 - Si $-1<a<1$, alors $\lim a^0=0$.
 - Si $a\leq -1$, la suite de terme général $a^n$ n'admet pas de limite.
