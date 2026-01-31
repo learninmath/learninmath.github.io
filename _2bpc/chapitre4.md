@@ -39,15 +39,13 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux
     - Si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite $(u_n)_{n\geq p}$ est croissante.
     - Si $\forall n\geq p:\ u_{n+1}\leq u_n$, alors la suite $(u_n)_{n\geq p}$ est décroissante.
 
-{% capture myimp2_markdown %}
+{% capture myimp2 %}
 Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour déterminer sa monotonie, la comparaison entre $f(x)$ et $x$, pour tout $x$ de $I$.
 
 - Ce qui donne pour tout $n\geq p$ que:
 {% endcapture %}
 
-{% assign myimp2_html = myimp2_markdown | markdownify %}
-
-{% include important.html content=myimp2_html type="primary"%}
+{% include important.html content=myimp2 type="primary"%}
 
 #### Méthode pour les suite de type $\boldsymbol{u_{n+1}=f(u_n)}$
 
