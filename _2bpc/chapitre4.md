@@ -44,6 +44,14 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond généra
 
 #### Suite de terme général $\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}$
 
+On a pour tout $a$ de $\mathbb{Q}^\ast$:
+- Si $a>0$, alors $\lim n^a=+\infty$.
+- Si $a<0$, alors $\lim n^a=0$.
+
+En particulier, pour tout $p$ de $\mathbb{N}^\ast$:
+- $\lim n^p=+\infty$ et $\lim \frac1{n^p}=0$.
+- $\lim \sqrt[p]{n}=+\infty$ et $\lim \frac1{\sqrt[p]{n}}=0$.
+
 Voici un exemple de tableau :
 
 | Entête 1 | Entête 2 |
