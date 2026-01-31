@@ -71,6 +71,19 @@ Alors \\(\lim u_n=l\\).
     - \\(\lim v_n=-\infty\\).
 
   Alors \\(\lim u_n=-\infty\\).
+- Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
+    - \\(\forall n\geq p:\ u_n\geq v_n\\).
+    - \\(\lim v_n=+\infty\\).
+
+  Alors \\(\lim u_n=+\infty\\).
+
+##### Critère de la valeur absolue
+
+Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
+- \\(\forall n\geq p:\ |u_n-l|\leq v_n\\), où \\(l\\) est un réel.
+- \\(\lim v_n=0\\).
+
+Alors \\(\lim u_n=l\\).
 
 #### Suite de terme général \\(\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}\\)
 
