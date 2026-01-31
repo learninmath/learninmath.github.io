@@ -80,6 +80,5 @@ Alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I
 
 > [!IMPORTANT] <strong>Important</strong>
 > Pour qu'une suite \\((u_n)\_{n\geq p}\\) soit **convergente**, elle doit être:
->- croissante et majorée.
-> ou
->- décroissante et minorée.
+>- croissante et majorée,
+>- ou décroissante et minorée.
