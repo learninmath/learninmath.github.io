@@ -64,6 +64,14 @@ Si \\((u_n)\_{n\geq p}\\), \\((v_n)\_{n\geq p}\\) et \\((w_n)\_{n\geq p}\\) sont
 
 Alors \\(\lim u_n=l\\).
 
+##### Critères de comparaison
+
+- Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
+    - \\(\forall n\geq p:\ u_n\leq v_n\\).
+    - \\(\lim v_n=-\infty\\).
+
+  Alors \\(\lim u_n=-\infty\\).
+
 #### Suite de terme général \\(\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}\\)
 
 On a pour tout \\(a\\) de \\(\mathbb{Q}^\ast\\):
