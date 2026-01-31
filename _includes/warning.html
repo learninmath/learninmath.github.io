@@ -1,7 +1,7 @@
-<div markdown="span" class="alert warning" role="alert">
+<div class="alert warning" role="alert">
     <button type="button" class="close" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
     <i class="fa fa-exclamation-triangle"></i> <b>Warning:</b>
-    {{include.content}}
+    {{ include.content | markdownify }}
 </div>

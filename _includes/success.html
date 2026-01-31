@@ -1,7 +1,7 @@
-<div markdown="span" class="alert success" role="alert">
+<div class="alert success" role="alert">
     <button type="button" class="close" aria-label="Close">
         <span aria-hidden="true">&times;</span>
     </button>
     <i class="fa fa-check-circle"></i> <b>Success:</b>
-    {{include.content}}
+    {{ include.content | markdownify }}
 </div>
