@@ -52,12 +52,21 @@ En particulier, pour tout $p$ de $\mathbb{N}^\ast$:
 - $\lim n^p=+\infty$ et $\lim \frac1{n^p}=0$.
 - $\lim \sqrt[p]{n}=+\infty$ et $\lim \frac1{\sqrt[p]{n}}=0$.
 
-#### Suite de terme général $\boldsymbol{a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\{1\})}$
+#### Suite de terme général $\boldsymbol{a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\\{1\\})}$
 
 On a pour tout $a$ de $\mathbb{R}^\ast\smallsetminus\\{1\\}$:
 - Si $a>1$, alors $\lim a^n=+\infty$.
 - Si $-1<a<1$, alors $\lim a^0=0$.
 - Si $a\leq -1$, la suite de terme général $a^n$ n'admet pas de limite.
+
+#### Suite de type $\boldsymbol{u_n=f(v_n)}$
+
+Si $(u_n)_{n\geq p}$ et $(u_n)_{n\geq p}$ sont deux suites, et $f$ est une fonction numérique tels que:
+- $\forall n\geq p:\ u_n=f(v_n)$.
+- $\lim v_n=l$.
+- $f$ est définie et est continue en $l$.
+Alors $\lim u_n=f(l)$.
+
 
 Voici un exemple de tableau :
 
