@@ -23,14 +23,6 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
  - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
-{% capture myimp1 %}
-Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que: 
-
-$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$.
-{% endcapture %}
-
-{% include important.html content=myimp1 type="primary" %}
-
 > [!IMPORTANT] <strong>Important</strong>
 > Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que: 
 >$$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$$.
