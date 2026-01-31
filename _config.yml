@@ -10,9 +10,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "forest", "garden", "ice", "light", "mint", "neon", "plum", "sunrise", "wood"
 search: true
+mathjax: true
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 plugins:
