@@ -68,15 +68,12 @@ Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et \\(f\\)
 
 Alors \\(\lim u_n=f(l)\\)
 
-Voici un exemple de tableau :
+#### Suite de type \\(\boldsymbol{u_{n+1}=f(u_n)}\\)
 
-| Entête 1 | Entête 2 |
-|---|---|
-| Cellule 1 | Cellule 2 |
-| Cellule 3 | Cellule 4 |
+Si \\((u_n)\_{n\geq p}\\) est une suite, et \\(f\\) est une fonction définie sur un intervalle $I$ tels que:
+- \\(\forall n\geq p:\ u_{n+1}=f(u_n)\\).
+- la suite \\((u_n)\_{n\geq p}\\) est **convergente**.
+- la fonction $f$ est continue sur $I$.
+- \\(f(I)\subset I\\).
 
-### Section 1.3: Encore des maths
-
-Une formule en bloc :
-
-\\)\\) E = mc^2 \\(\\)
+Alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I\\).
