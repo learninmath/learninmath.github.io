@@ -11,7 +11,7 @@ Ouvrir le PDF en cliquant sur <a href="{{ site.url }}{{ site.baseurl }}/2bpc/4.p
 
 Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigées en classe.
 
-## Méthodes et techniques
+## À retenir
 
 ### Raisonnement par récurrence
 Soit \\(p\\) un entier et \\(I\\) un intervalle.
@@ -25,7 +25,7 @@ Pour montrer par récurrence la proposition \\(\forall n\geq p: u_n\in I\\), on 
 > [!IMPORTANT] <strong>Important</strong>
 > Pour une suite de type \\(u_{n+1}=f(u_n)\\), on utilise, pour montrer l'**hérédité**, le fait que \\(f(I)\subset I\\). Ce qui donne pour tout \\(n\geq p\\) que:
 ><br>
->\\)u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I\\)
+>\\(u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I\\)
 
 ### Monotonie d'une suite
 
