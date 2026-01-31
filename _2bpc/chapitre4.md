@@ -56,11 +56,11 @@ Alors elle est **convergente**
 
 #### Critères de convergence
 
-- **Critère de gendarmes** :
+##### Critère de gendarmes
 
 Si \\((u_n)\_{n\geq p}\\), \\((v_n)\_{n\geq p}\\) et \\((w_n)\_{n\geq p}\\) sont deux suites telles que:
-    - \\(\forall n\geq p:\ v_n\leq u_n\leq w_n\\).
-    - \\(\lim v_n=\lim w_n=l\\), où \\(l\\) est un réel.
+- \\(\forall n\geq p:\ v_n\leq u_n\leq w_n\\).
+- \\(\lim v_n=\lim w_n=l\\), où \\(l\\) est un réel.
 
 Alors \\(\lim u_n=l\\).
 
