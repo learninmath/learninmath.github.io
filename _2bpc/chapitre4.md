@@ -31,7 +31,7 @@ $u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$.
 
 {% include important.html content=myimp1 type="primary" %}
 
-> [!TIP] My own title
+> [!IMPORTANT] **Important**
 > Fancy!
 
 ### Monotonie d'une suite
