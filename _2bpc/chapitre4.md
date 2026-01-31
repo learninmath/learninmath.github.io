@@ -24,8 +24,9 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
 > [!IMPORTANT] <strong>Important</strong>
-> Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que: 
->$$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$$.
+> Pour une suite de type $u_{n+1}=f(u_n)$, on utilise, pour montrer l'**hérédité**, le fait que $f(I)\subset I$. Ce qui donne pour tout $n\geq p$ que:
+><br>
+>$u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I$: {align-center:}.
 
 ### Monotonie d'une suite
 
