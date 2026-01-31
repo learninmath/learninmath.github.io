@@ -40,7 +40,7 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond généra
 >- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\geq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\geq u_n$.
 >- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\leq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\leq u_n$.
 
-### Limites des quelques suites définies explicitement
+### Limites de quelques suites
 
 #### Suite de terme général $\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}$
 
@@ -51,6 +51,13 @@ On a pour tout $a$ de $\mathbb{Q}^\ast$:
 En particulier, pour tout $p$ de $\mathbb{N}^\ast$:
 - $\lim n^p=+\infty$ et $\lim \frac1{n^p}=0$.
 - $\lim \sqrt[p]{n}=+\infty$ et $\lim \frac1{\sqrt[p]{n}}=0$.
+
+#### Suite de terme général $\boldsymbol{a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\{1\})}$
+
+On a pour tout $a$ de $\mathbb{R}^\ast\smallsetminus\{1\}$:
+- Si $a>1$, alors $\lim a^n=+\infty$.
+- Si $-1<a<1$, alors $\lim a^0=0$.
+- Si $a\leq -1$, la suite de terme général $a^n$ n'admet pas de limite.
 
 Voici un exemple de tableau :
 
