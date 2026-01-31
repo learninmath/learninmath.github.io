@@ -61,7 +61,7 @@ On a pour tout \\(a\\) de \\(\mathbb{R}^\ast\smallsetminus\\{1\\}\\):
 
 #### Suite de type \\(\boldsymbol{u_n=f(v_n)}\\)
 
-Si \\( (u_n)_{n\geq p} \\) et \\( (v_n)_{n\geq p} \\) sont deux suites, et \\(f\\) est une fonction numérique tels que:
+Si \\\((u_n)_{n\geq p}\\\) et \\\((v_n)_{n\geq p}\\\) sont deux suites, et \\(f\\) est une fonction numérique tels que:
 - \\(\forall n\geq p:\ u_n=f(v_n)\\).
 - \\(\lim v_n=l\\).
 - \\(f\\) est définie et est continue en \\(l\\).
