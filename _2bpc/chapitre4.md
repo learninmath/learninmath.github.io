@@ -19,7 +19,6 @@ Soit $p$ un entier et $I$ un intervalle.
 On considère la suite $(u_n)_{n\geq p}$.
 
 Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on répond au deux questions suivantes:
-
  - **Initialisation**: Vérifier que pour $n=p$, on $u_p\in I$.
  - **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
@@ -30,10 +29,7 @@ Pour montrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on rép
 
 ### Monotonie d'une suite
 
-#### Méthode générale
-
-Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux questions suivantes:
-
+Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond généralement au deux questions suivantes:
 - Soit $n\geq p$, calculer et factoriser $u_{n+1}-u_n$.
 - Étudier le signe de l'expression obtenue et déduire:
     - Si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite $(u_n)_{n\geq p}$ est croissante.
@@ -44,7 +40,7 @@ Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on répond aux deux
 >- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\geq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\geq u_n$.
 >- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\leq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\leq u_n$.
 
-#### Méthode pour les suite de type $\boldsymbol{u_{n+1}=f(u_n)}$
+### Limites des quelques suites définies explicitement
 
 Voici un exemple de tableau :
 
