@@ -5,10 +5,15 @@ title: "Polynômes"
 permalink: /tcs/chapitre6/
 ---
 
-## Document PDF à remplir
+## Documents PDF à remplir
 
-Ouvrir le PDF en cliquant sur 
+Ouvrir le cours PDF en cliquant sur 
 <a href="{{ site.url }}{{ site.baseurl }}/tcs/6.pdf" target="_blank">
+<i class="fa-solid fa-file-pdf"></i>
+</a>.
+
+Ouvrir la série d'exercices PDF en cliquant sur 
+<a href="{{ site.url }}{{ site.baseurl }}/tcs/TD6.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
 
