@@ -41,4 +41,5 @@ Soit \\(\alpha\\) un réel. Si on considère le polynôme \\(P(x)=a_nx^n+a_{n-1}
 - La Méthode de Hörner consiste à calculer \\(P(\alpha)\\) en effectuant un nombre minimal d’opérations.
 - La formule utilisée pour cela est \\(P(x)=(\ldots((a_nx+a_{n-1})x+a_{n-2})x+\ldots+a_1)x+a_0\\).
 - Afin de faciliter le calcul, on utilise un **tableau de Hörner**, qui permet d’organiser les coefficients du polynôme et d’effectuer les calculs successifs de manière simple et efficace.
+- Cette méthode permet également d’obtenir les coefficients du polynôme quotient de la division euclidienne de \\(P(x)\\) par le binôme \\(x-\alpha\\).
 
