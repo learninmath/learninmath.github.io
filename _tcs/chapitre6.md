@@ -22,11 +22,11 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 Soient \\(n\\) un entier naturel, et \\(a\\) un réel
 
-La division d'un polynôme \\(P(x)\\) de degré \\(n\\), par un binôme \\(x-a\\), donne:
-- comme quotient un unique polynôme \\(Q(x)\\) de degré \\(n-1\\),
-- comme reste \\(P(a)\\)
+La division euclidienne d'un polynôme \\(P(x)\\) de degré \\(n\\) par un binôme \\(x-a\\) donne:
+- pour quotient un unique polynôme \\(Q(x)\\) de degré \\(n-1\\) ;
+- pour reste le nombre réel \\(P(a)\\).
 
-Le polynôme \\(P(x)\\) peut s'écrire alors sous la forme \\(P(x)=(x-a)Q(x)+P(a)\\)
+On peut alors écrire le polynôme \\(P(x)\\) sous la forme \\(P(x)=(x-a)Q(x)+P(a)\\)
 
 ### Factorisation
 
