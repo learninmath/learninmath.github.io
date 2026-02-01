@@ -16,7 +16,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## À retenir
 
-### Égalité de polynôme
+### Égalité de polynômes
 
 Si on considère les polynômes:
 - \\(P(x)=a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0\\),
