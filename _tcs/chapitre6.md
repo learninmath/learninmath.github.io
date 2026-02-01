@@ -44,8 +44,14 @@ Soient \\(P(x)\\) un polynôme et \\(a\\) un réel.
 - Le polynôme\\(P(x)\\) est divisible par le binôme \\(x-a\\) si et seulement si \\(a\\) est une racine de \\(P(x)\\).
 
 > [!IMPORTANT] <strong>Important</strong>
-> Pour une suite définie par \\(u_{n+1}=f(u_n)\\), on utilise, pour établir l'**hérédité**, le fait que \\(f(I)\subset I\\). Ainsi pour tout \\(n\geq p\\) que:
->\\[u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I\\]
+> Pour Factoriser un polynôme \\(P(x)\\), on procède de la manière suivante:
+>1. Chercher une première racine \\(a_1\\) de \\(P(x)\\).
+>2. Déterminer par la division euclidienne le polynôme \\(Q_1(x)\\) tel que \\(P(x)=(x-a_1)Q_1(x)\\).
+>3. Chercher une deuxième racine \\(a_2\\) de \\(Q_1\\), qui est évidemment une de \\(P(x)\\).
+>4. Déterminer par la division euclidienne le polynôme \\(Q_2(x)\\) tel que \\(Q_1(x)=(x-a_2)Q_2(x)\\).
+>5. Refaire les processus jusqu'à trouver la dernière racine \\(a_{\text{final}}\\) de \\(P(x)\\), et déterminer le dernier polynôme \\(Q_{\text{final}}(x)\\). 
+>6. La factorisation du polynôme \\(P(x)\\) sera alors \\(P(x)=(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})Q_{\text{final}}(x)\\).
+>7. La plupart du temps on obtient que \\(Q_{\text{final}}(x)=1\\) et \\(P(x)=(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})\\).
 
 ### Méthode de Hörner
 
