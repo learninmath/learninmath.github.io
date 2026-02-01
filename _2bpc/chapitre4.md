@@ -127,3 +127,4 @@ alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I
 
 ## Exercices résolus
 
+### Exercice 4 de la série
