@@ -16,3 +16,6 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## À retenir
 
+### Primitive et dérivée
+
+### Toutes les primitives d'un fonctions
