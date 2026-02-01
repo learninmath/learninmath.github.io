@@ -18,7 +18,11 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ### Égalité de polynôme
 
-Si on considère les polynômes \\(P(x)=a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0\\) et \\(Q(x)=b_nx^n+b_{n-1}x^{n-1}+\ldots+b_1x+b_0\\), alors:
+Si on considère les polynômes:
+- \\(P(x)=a_nx^n+a_{n-1}x^{n-1}+\ldots+a_1x+a_0\\),
+- \\(Q(x)=b_nx^n+b_{n-1}x^{n-1}+\ldots+b_1x+b_0\\),
+
+alors:
 
 \\(P(x)=Q(x)\\), si et seulement si \\(a_n=b_n\\), \\(a_{n-1}=b_{n-1}\\), \\(\ldots\\), \\(a_1=b_1\\) et \\(a_0=b_0\\).
 
