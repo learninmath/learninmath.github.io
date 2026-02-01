@@ -124,3 +124,6 @@ Si \\((u_n)\_{n\geq p}\\) est une suite, et si \\(f\\) est une fonction définie
 - \\(f(I)\subset I\\),
 
 alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I\\).
+
+## Exercices résolus
+
