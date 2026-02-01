@@ -23,8 +23,8 @@ Soit \\(p\\) un entier et \\(I\\) un intervalle.
 On considère la suite \\((u_n)_{n\geq p}\\).
 
 Pour démontrer par récurrence la proposition \\(\forall n\geq p: u_n\in I\\), on répond au deux questions suivantes:
- 1) **Initialisation**: Vérifier que pour \\(n=p\\), on a bien \\(u_p\in I\\).
- 2) **Hérédité**: Soit \\(n\geq p\\), on suppose que \\(u_n\in I\\), montrer que \\(u_{n+1}\in I\\).
+ 1. **Initialisation**: Vérifier que pour \\(n=p\\), on a bien \\(u_p\in I\\).
+ 2. **Hérédité**: Soit \\(n\geq p\\), on suppose que \\(u_n\in I\\), montrer que \\(u_{n+1}\in I\\).
 
 > [!IMPORTANT] <strong>Important</strong>
 > Pour une suite définie par \\(u_{n+1}=f(u_n)\\), on utilise, pour établir l'**hérédité**, le fait que \\(f(I)\subset I\\). Ainsi pour tout \\(n\geq p\\) que:
@@ -33,8 +33,8 @@ Pour démontrer par récurrence la proposition \\(\forall n\geq p: u_n\in I\\), 
 ### Monotonie d'une suite
 
 Pour déterminer la monotonie d'une suite \\((u_n)_{n\geq p}\\), on procède généralement de la manière suivante:
-1) Soit \\(n\geq p\\), calculer puis factoriser \\(u_{n+1}-u_n\\).
-2) Étudier le signe de l'expression obtenue et en déduire:
+1. Soit \\(n\geq p\\), calculer puis factoriser \\(u_{n+1}-u_n\\).
+2. Étudier le signe de l'expression obtenue et en déduire:
     - si \\(\forall n\geq p:\ u_{n+1}\geq u_n\\), alors la suite est **croissante**.
     - si \\(\forall n\geq p:\ u_{n+1}\leq u_n\\), alors la suite est **décroissante**.
 
