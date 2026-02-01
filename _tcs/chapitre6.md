@@ -31,9 +31,9 @@ On peut alors écrire le polynôme \\(P(x)\\) sous la forme \\(P(x)=(x-a)Q(x)+P(
 ### Factorisation
 
 Soient \\(P(x)\\) un polynôme et \\(a\\) un réel.
-- le réel \\(a\\) est une **racine** ou un **zéro** de \\(P(x)\\), si \\(P(a)=0\\).
-- Si \\(a\\) est une racine de \\(P(x)\\), alors \\(P(x)\\) peut s'écrire sous la forme \\(P(x)=(x-a)Q(x)\\).
-- Si \\(a\\) est une racine d'un polynôme \\(P(x)\\), alors \\(P(x)\\) est divisible par le binôme \\(x-a\\).
+- Le réel\\(a\\) est une **racine** ou un **zéro** de \\(P(x)\\), si et seulement si \\(P(a)=0\\).
+- Il existe un polynôme \\(Q(x)\\) tel que \\(P(x)=(x-a)Q(x)\\), si et seulement si \\(a\\) est une racine de \\(P(x)\\).
+- Le polynôme\\(P(x)\\) est divisible par le binôme \\(x-a\\) si et seulement si \\(a\\) est une racine de \\(P(x)\\).
 
 ### Méthode de Hörner
 
