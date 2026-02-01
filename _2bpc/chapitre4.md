@@ -89,7 +89,7 @@ Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
 
 alors \\(\lim u_n=l\\).
 
-#### Suite de terme général \\(\boldsymbol{n^a;\ (a\in\mathbb{Q}^\ast)}\\)
+#### Suite de terme général \\(n^a;\ (a\in\mathbb{Q}^\ast)\\)
 
 Pour tout \\(a\\) de \\(\mathbb{Q}^\ast\\):
 - Si \\(a>0\\), alors \\(\lim n^a=+\infty\\) ;
@@ -99,14 +99,14 @@ En particulier, pour tout \\(p\\) de \\(\mathbb{N}^\ast\\):
 - \\(\lim n^p=+\infty\\) et \\(\lim \frac1{n^p}=0\\) ;
 - \\(\lim \sqrt[p]{n}=+\infty\\) et \\(\lim \frac1{\sqrt[p]{n}}=0\\).
 
-#### Suite de terme général \\(\boldsymbol{a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\\{1\\})}\\)
+#### Suite de terme général \\(a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\\{1\\})\\)
 
 Pour tout \\(a\\) de \\(\mathbb{R}^\ast\smallsetminus\\{1\\}\\):
 - Si \\(a>1\\), alors \\(\lim a^n=+\infty\\) ;
 - Si \\(-1<a<1\\), alors \\(\lim a^0=0\\) ;
 - Si \\(a\leq -1\\), la suite de terme général \\(a^n\\) n'admet pas de limite.
 
-#### Suite de type \\(\boldsymbol{u_n=f(v_n)}\\)
+#### Suite de type \\(u_n=f(v_n)\\)
 
 Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et si \\(f\\) est une fonction numérique telle que:
 - \\(\forall n\geq p:\ u_n=f(v_n)\\),
@@ -115,7 +115,7 @@ Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et si \\(f
 
 alors \\(\lim u_n=f(l)\\)
 
-#### Suite de type \\(\boldsymbol{u_{n+1}=f(u_n)}\\)
+#### Suite de type \\(u_{n+1}=f(u_n)\\)
 
 Si \\((u_n)\_{n\geq p}\\) est une suite, et si \\(f\\) est une fonction définie sur un intervalle $I$ telle que:
 - \\(\forall n\geq p:\ u_n\in I\ \text{et}\ u_{n+1}=f(u_n)\\),
