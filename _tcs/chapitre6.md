@@ -16,3 +16,21 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## À retenir
 
+### Égalité de polynôme
+
+### Division euclidienne
+
+Soient \\(n\\) un entier naturel, et \\(a\\) un réel
+
+La division d'un polynôme \\(P(x)\\) de degré \\(n\\), par un binôme \\(x-a\\), donne:
+- comme quotient un unique polynôme \\(Q(x)\\) de degré \\(n-1\\),
+- comme reste \\(P(a)\\)
+
+Le polynôme \\(P(x)\\) peut s'écrire alors sous la forme \\(P(x)=(x-a)Q(x)+P(a)\\)
+
+### Factorisation
+
+### Méthode de Hörner
+
+
+
