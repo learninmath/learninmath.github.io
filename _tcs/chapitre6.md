@@ -47,11 +47,11 @@ Soient \\(P(x)\\) un polynôme et \\(a\\) un réel.
 > Pour Factoriser un polynôme \\(P(x)\\), on procède de la manière suivante:
 >1. Chercher une première racine \\(a_1\\) de \\(P(x)\\).
 >2. Déterminer par la division euclidienne le polynôme \\(Q_1(x)\\) tel que \\(P(x)=(x-a_1)Q_1(x)\\).
->3. Chercher une deuxième racine \\(a_2\\) de \\(Q_1\\), qui est évidemment une de \\(P(x)\\).
+>3. Chercher une deuxième racine \\(a_2\\) de \\(Q_1\\), qui est évidemment une racine de \\(P(x)\\).
 >4. Déterminer par la division euclidienne le polynôme \\(Q_2(x)\\) tel que \\(Q_1(x)=(x-a_2)Q_2(x)\\).
 >5. Refaire les processus jusqu'à trouver la dernière racine \\(a_{\text{final}}\\) de \\(P(x)\\), et déterminer le dernier polynôme \\(Q_{\text{final}}(x)\\). 
 >6. La factorisation du polynôme \\(P(x)\\) sera alors \\(P(x)=(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})Q_{\text{final}}(x)\\).
->7. La plupart du temps on obtient que \\(Q_{\text{final}}(x)=1\\) et \\(P(x)=(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})\\).
+>7. La plupart du temps on obtient que \\(Q_{\text{final}}(x)=c\\) et \\(P(x)=c(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})\\), où \\(c\\) est un réel.
 
 ### Méthode de Hörner
 
