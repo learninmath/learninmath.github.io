@@ -56,7 +56,7 @@ Soient \\(P(x)\\) un polynôme et \\(a\\) un réel.
 >4. Déterminer par la division euclidienne le polynôme \\(Q_2(x)\\) tel que \\(Q_1(x)=(x-a_2)Q_2(x)\\).
 >5. Refaire ls processus jusqu'à trouver la dernière racine \\(a_{\text{final}}\\) de \\(P(x)\\), et déterminer le dernier polynôme \\(Q_{\text{final}}(x)\\). 
 >6. La factorisation du polynôme \\(P(x)\\) s'écrit alors \\(P(x)=(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})Q_{\text{final}}(x)\\).
->7. La plupart du temps on obtient que \\(Q_{\text{final}}(x)=c\\) et donc \\(P(x)=c(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})\\), où \\(c\\) est un réel.
+>7. La plupart du temps on obtient que \\(Q_{\text{final}}(x)=k\\) et donc \\(P(x)=k(x-a_1)(x-a_2)\cdots(x-a_{\text{final}})\\), où \\(k\\) est un réel.
 
 ### Méthode de Hörner
 
