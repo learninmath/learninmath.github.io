@@ -16,3 +16,8 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## À retenir
 
+### Règle générale
+
+Déterminer une primitive d'une fonction \\(f\\) sur un intervalle \\(I\\), revient à exprimer \\(f\\) comme la dérivée d'une autre fonction.
+
+En d'autres termes, Si l’on trouve une fonction \\(F\\) dérivable sur \\(I\\) telle que \\(\forall x\in I: f(x)=F'(x)\\), alors la fonction \\(F\\) est une primitive de \\(f\\) sur \\(I\\).  
