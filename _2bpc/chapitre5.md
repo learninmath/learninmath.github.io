@@ -27,7 +27,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 Soit $f$ la fonction définie sur $\mathbb{R}$ par $f(x)=\frac{x}{\sqrt{x^2+1}}+1$.
 
-1. Montrer que $f$ admet des primitives sur $\mathbb{R}$.
+#### 1. Montrer que $f$ admet des primitives sur $\mathbb{R}$.
 
 On considère les fonctions $u$ et $v$ définies sur $\mathbb{R}$ par $u(x)=x$ et $v(x)=\sqrt{x^2+1}$.
 
