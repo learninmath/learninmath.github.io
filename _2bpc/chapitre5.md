@@ -36,6 +36,20 @@ On considère les fonctions $u$ et $v$ définies sur $\mathbb{R}$ par $u(x)=x$ e
   * La fonction $x\mapsto x^2+1$ vérifie: $\forall x\in\mathbb{R}:\ x^2+1>0$.
 * La fonction $v$ vérifie: $\forall x\in\mathbb{R}:\ v(x)\neq 0$.
 
-Alors, la fonction $f=\frac{u}{v}$ est continue sur $\mathbb{R}$.
+Donc $\frac{u}{v}$ est continue sur $\mathbb{R}$.
+
+D'où la fonction $f:x\mapsto\frac{u(x)}{v(x)}+1$ est continue sur $\mathbb{R}$.
 
 #### 2. Déterminer toutes les primitives de $f$ sur $\mathbb{R}$.
+
+Soit $x\in\mathbb{R}$, on a:
+$$
+\begin{array}{ll}
+f(x) & = \frac{x}{\sqrt{x^2+1}}+1 \\
+     & = \frac12\times\frac{2x}{\sqrt{x^2+1}}+1 \\
+     & = \frac{(x^2+1)'}{2\sqrt{x^2+1}}+(x)' \\
+     & = \left(\sqrt{x^2+1}\right)'+(x)' \\
+     & = \left(\sqrt{x^2+1}+x\right)'
+\end{array}
+$$
+D'où, toutes les primitives de $f$ sur $\mathbb{R}$ sont les fonctions $F$ définies sur $\mathbb{R}$ par $F(x)=\sqrt{x^2+1}+x+c$, où $c\in\mathbb{R}$.
