@@ -43,6 +43,7 @@ D'où la fonction $f:x\mapsto\frac{u(x)}{v(x)}+1$ est continue sur $\mathbb{R}$.
 #### 2. Déterminer toutes les primitives de $f$ sur $\mathbb{R}$.
 
 Soit $x\in\mathbb{R}$, on a:
+
 $$
 \begin{array}{ll}
 f(x) & = \frac{x}{\sqrt{x^2+1}}+1 \\
@@ -52,4 +53,5 @@ f(x) & = \frac{x}{\sqrt{x^2+1}}+1 \\
      & = \left(\sqrt{x^2+1}+x\right)'
 \end{array}
 $$
+
 D'où, toutes les primitives de $f$ sur $\mathbb{R}$ sont les fonctions $F$ définies sur $\mathbb{R}$ par $F(x)=\sqrt{x^2+1}+x+c$, où $c\in\mathbb{R}$.
