@@ -23,14 +23,21 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## Exercices résolus
 
-<!-- ### Exercice 1 de la série
+### Exercice 1 de la série
 
 Soit $f$ la fonction définie sur $\mathbb{R}$ par $f(x)=\frac{x}{\sqrt{x^2+1}}+1$.
 
 1. Montrer que $f$ admet des primitives sur $\mathbb{R}$.
 
-On considère les fonctions $u$ et $v$ définies sur $\mathbb{R}$ par $u(x)=x$ et $v(x)=x^2+1$.
+On considère les fonctions $u$ et $v$ définies sur $\mathbb{R}$ par $u(x)=x$ et $v(x)=\sqrt{x^2+1}$.
 
-Les fonctions $u$ et $v$ sont des fonctions polynômes, continues sur $\mathbb{R}$.
+* La fonction $u$ est une fonction polynôme, continue sur $\mathbb{R}$.
 
-Puisque $\forall x\in\mathbb{R}:\ v(x)=x^2+1>0$, alors la fonction $x\mapsto\sqrt{v(x)}$ est continue sur $\mathbb{R}$. -->
+* La fonction $v$ est continue sur $\mathbb{R}$ car:
+
+  * La fonction $x\mapsto x^2+1$ est une fonction polynôme, continue sur $\mathbb{R}$.
+  * La fonction $x\mapsto x^2+1$ vérifie: $\forall x\in\mathbb{R}:\ x^2+1>0$.
+
+* La fonction $v$ vérifie: $\forall x\in\mathbb{R}:\ v(x)\neq 0$.
+
+Alors, la fonction $f=\frac{u}{v}$ est continue sur $\mathbb{R}$.
