@@ -55,3 +55,25 @@ f(x) & = \frac{x}{\sqrt{x^2+1}}+1 \\
 $$
 
 D'où, toutes les primitives de $f$ sur $\mathbb{R}$ sont les fonctions $F$ définies sur $\mathbb{R}$ par $F(x)=\sqrt{x^2+1}+x+c$, où $c\in\mathbb{R}$.
+
+#### 3. Déterminer $F$ la primitive de $f$ sur $\mathbb{R}$ qui vérifie $F(0) = 3$.
+
+La fonction $F$ est une primitive de $f$ sur $\mathbb{R}$, elle s'écrira alors sous la forme $F(x)=\sqrt{x^2+1}+x+c$, où $c\in\mathbb{R}$.
+
+Déterminons le réel $c$ tel que $F(0) = 3$.
+
+On a:
+
+$$
+\begin{array}{ll}
+F(0) = 3 & \iff \sqrt{0^2+1}+0+c = 3 \\
+     & \iff \sqrt{1}+c = 3 \\
+     & \iff 1+c = 3 \\
+     & \iff c = 3-1 \\
+     & \iff c = 2
+\end{array}
+$$
+
+D'où $\forall x\in\mathbb{R}:\ F(x)=\sqrt{x^2+1}+x+3$.
+
+<!-- ### Exercice 2 de la série -->
