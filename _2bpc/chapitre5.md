@@ -45,12 +45,12 @@ D'où la fonction $f:x\mapsto\frac{u(x)}{v(x)}+1$ est continue sur $\mathbb{R}$.
 Soit $x\in\mathbb{R}$, on a:
 
 $$
-\begin{array}{rl}
-f(x) & = \frac{x}{\sqrt{x^2+1}}+1 \\
-     & = \frac12\times\frac{2x}{\sqrt{x^2+1}}+1 \\
-     & = \frac{(x^2+1)'}{2\sqrt{x^2+1}}+(x)' \\
-     & = \left(\sqrt{x^2+1}\right)'+(x)' \\
-     & = \left(\sqrt{x^2+1}+x\right)'
+\begin{array}{rcl}
+f(x) & = & \frac{x}{\sqrt{x^2+1}}+1 \\
+     & = & \frac12\times\frac{2x}{\sqrt{x^2+1}}+1 \\
+     & = & \frac{(x^2+1)'}{2\sqrt{x^2+1}}+(x)' \\
+     & = & \left(\sqrt{x^2+1}\right)'+(x)' \\
+     & = & \left(\sqrt{x^2+1}+x\right)'
 \end{array}
 $$
 
@@ -65,12 +65,12 @@ Déterminons le réel $c$ tel que $F(0) = 3$.
 On a:
 
 $$
-\begin{array}{rl}
-F(0) = 3 & \iff \sqrt{0^2+1}+0+c = 3 \\
-     & \iff \sqrt{1}+c = 3 \\
-     & \iff 1+c = 3 \\
-     & \iff c = 3-1 \\
-     & \iff c = 2
+\begin{array}{rcl}
+F(0) = 3 & \iff & \sqrt{0^2+1}+0+c = 3 \\
+         & \iff & \sqrt{1}+c = 3 \\
+         & \iff & 1+c = 3 \\
+         & \iff & c = 3-1 \\
+         & \iff & c = 2
 \end{array}
 $$
 
