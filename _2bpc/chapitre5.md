@@ -146,11 +146,11 @@ On a:
 
 $$
 \begin{array}{rcl}
-$F(0) = \frac12$ & \iff & -\frac3{2\sqrt[3]{0^2+3}}+c = \frac12 \\
-                 & \iff & -\frac3{2\sqrt[3]{3}}+c = \frac12 \\
-                 & \iff & -\frac{\sqrt[3]{3}^2}{2}+c = \frac12 \\
-                 & \iff & c = \frac12+\frac{\sqrt[3]{3}^2}{2} \\
-                 & \iff & c = \frac{1+\sqrt[3]{3}^2}{2}.
+F(0) = \frac12 & \iff & -\frac3{2\sqrt[3]{0^2+3}}+c = \frac12 \\
+               & \iff & -\frac3{2\sqrt[3]{3}}+c = \frac12 \\
+               & \iff & -\frac{\sqrt[3]{3}^2}{2}+c = \frac12 \\
+               & \iff & c = \frac12+\frac{\sqrt[3]{3}^2}{2} \\
+               & \iff & c = \frac{1+\sqrt[3]{3}^2}{2}.
 \end{array}
 $$
 
