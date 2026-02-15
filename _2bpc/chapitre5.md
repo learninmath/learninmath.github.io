@@ -50,7 +50,7 @@ f(x) & = & \frac{x}{\sqrt{x^2+1}}+1 \\
      & = & \frac12\times\frac{2x}{\sqrt{x^2+1}}+1 \\
      & = & \frac{(x^2+1)'}{2\sqrt{x^2+1}}+(x)' \\
      & = & \left(\sqrt{x^2+1}\right)'+(x)' \\
-     & = & \left(\sqrt{x^2+1}+x\right)'
+     & = & \left(\sqrt{x^2+1}+x\right)'.
 \end{array}
 $$
 
@@ -70,10 +70,68 @@ F(0) = 3 & \iff & \sqrt{0^2+1}+0+c = 3 \\
          & \iff & \sqrt{1}+c = 3 \\
          & \iff & 1+c = 3 \\
          & \iff & c = 3-1 \\
-         & \iff & c = 2
+         & \iff & c = 2.
 \end{array}
 $$
 
 D'où $\forall x\in\mathbb{R}:\ F(x)=\sqrt{x^2+1}+x+3$.
 
-<!-- ### Exercice 2 de la série -->
+### Exercice 5 de la série
+
+Soit $f$ et $u$ les fonctions définies sur $\mathbb{R}$ par $f(x)=\frac{x}{(x^2+3)\sqrt[3]{x^2+3}}$ et $u(x)=\sqrt[3]{x^2+3}$.
+
+#### 1. Montrer que $\forall x\in\mathbb{R}:\ f(x)=\frac{3u′(x)}{2(u(x))^2}$
+
+On sait que la fonction $u$ est dérivable sur $\mathbb{R}$ car:
+* la fonction $x\mapsto x^2+3$ est dérivable sur $\mathbb{R}$.
+* la fonction $x\mapsto x^2+3$ vérifie: $\forall x\in\mathbb{R}:\ x^2+3>0$.
+
+Soit $x\in\mathbb{R}$, on a:
+
+$$
+\begin{array}{rcl}
+u'(x) & = & \left(\sqrt[3]{x^2+3}\right)' \\
+      & = & \frac{(x^2+3)'}{3\left(\sqrt[3]{x^2+3}\right)^2} \\
+      & = & \frac{2x}{3\left(u(x)\right)^2}.
+\end{array}
+$$
+
+Donc $u'(x)=\frac{2x}{3\left(u(x)\right)^2}$, ce qui implique que $x=\frac32 u'(x) \left(u(x)\right)^2$.
+
+Et on voit bien que:
+
+$$
+\begin{array}{rcl}
+(x^2+3)\sqrt[3]{x^2+3} & = & \left(\sqrt[3]{x^2+3}\right)^3\sqrt[3]{x^2+3} \\
+                       & = & \left(\sqrt[3]{x^2+3}\right)^4 \\
+                       & = & \left(u(x)\right)^4.
+\end{array}
+$$
+
+Alors
+
+$$
+\begin{array}{rcl}
+f(x) & = & \frac{x}{(x^2+3)\sqrt[3]{x^2+3}} \\
+     & = & \frac{\frac32 u'(x) \left(u(x)\right)^2}{\left(u(x)\right)^4} \\
+     & = & \frac{3 u'(x)}{2\left(u(x)\right)^2}.
+\end{array}
+$$
+
+D'où $\forall x\in\mathbb{R}:\ f(x)=\frac{3u′(x)}{2(u(x))^2}$.
+
+#### 2. En déduire toutes les primitives de $f$ sur $\mathbb{R}$.
+
+Soit $x\in\mathbb{R}$, on a:
+
+$$
+\begin{array}{rcl}
+f(x) & = & \frac{3u′(x)}{2(u(x))^2} \\
+     & = & -\frac32\left(-\frac{u′(x)}{(u(x))^2}\right) \\
+     & = & -\frac32\left(\frac1{u(x)}\right)' \\
+     & = & \left(-\frac3{2 u(x)}\right)' \\
+     & = & \left(-\frac3{2\sqrt[3]{x^2+3}}\right)'.
+\end{array}
+$$
+
+D'où, toutes les primitives de $f$ sur $\mathbb{R}$ sont les fonctions $F$ définies sur $\mathbb{R}$ par $F(x)=-\frac3{2\sqrt[3]{x^2+3}}+c$, où $c\in\mathbb{R}$.
