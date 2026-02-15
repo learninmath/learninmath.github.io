@@ -92,11 +92,11 @@ $$
 \begin{array}{rcl}
 u'(x) & = & \left(\sqrt[3]{x^2+3}\right)' \\
       & = & \frac{(x^2+3)'}{3\left(\sqrt[3]{x^2+3}\right)^2} \\
-      & = & \frac{2x}{3\left(u(x)\right)^2}.
+      & = & \frac{2x}{3(u(x))^2}.
 \end{array}
 $$
 
-Donc $u'(x)=\frac{2x}{3\left(u(x)\right)^2}$, ce qui implique que $x=\frac32 u'(x) \left(u(x)\right)^2$.
+Donc $u'(x)=\frac{2x}{3(u(x))^2}$, ce qui implique que $x=\frac32 u'(x) (u(x))^2$.
 
 Et on voit bien que:
 
@@ -104,7 +104,7 @@ $$
 \begin{array}{rcl}
 (x^2+3)\sqrt[3]{x^2+3} & = & \left(\sqrt[3]{x^2+3}\right)^3\sqrt[3]{x^2+3} \\
                        & = & \left(\sqrt[3]{x^2+3}\right)^4 \\
-                       & = & \left(u(x)\right)^4.
+                       & = & (u(x))^4.
 \end{array}
 $$
 
@@ -113,8 +113,8 @@ Alors
 $$
 \begin{array}{rcl}
 f(x) & = & \frac{x}{(x^2+3)\sqrt[3]{x^2+3}} \\
-     & = & \frac{\frac32 u'(x) \left(u(x)\right)^2}{\left(u(x)\right)^4} \\
-     & = & \frac{3 u'(x)}{2\left(u(x)\right)^2}.
+     & = & \frac{\frac32 u'(x) (u(x))^2}{(u(x))^4} \\
+     & = & \frac{3 u'(x)}{2(u(x))^2}.
 \end{array}
 $$
 
@@ -135,3 +135,23 @@ f(x) & = & \frac{3u′(x)}{2(u(x))^2} \\
 $$
 
 D'où, toutes les primitives de $f$ sur $\mathbb{R}$ sont les fonctions $F$ définies sur $\mathbb{R}$ par $F(x)=-\frac3{2\sqrt[3]{x^2+3}}+c$, où $c\in\mathbb{R}$.
+
+#### 3. Déterminer $F$ la primitive de $f$ sur $\mathbb{R}$ qui vérifie $F(0)=\frac12$.
+
+La fonction $F$ est une primitive de $f$ sur $\mathbb{R}$, elle s'écrira alors sous la forme $F(x)=-\frac3{2\sqrt[3]{x^2+3}}+c$, où $c\in\mathbb{R}$.
+
+Déterminons le réel $c$ tel que $F(0)=\frac12$.
+
+On a:
+
+$$
+\begin{array}{rcl}
+$F(0) = \frac12$ & \iff & -\frac3{2\sqrt[3]{0^2+3}}+c = \frac12 \\
+                 & \iff & -\frac3{2\sqrt[3]{3}}+c = \frac12 \\
+                 & \iff & -\frac{\sqrt[3]{3}^2}{2}+c = \frac12 \\
+                 & \iff & c = \frac12+\frac{\sqrt[3]{3}^2}{2} \\
+                 & \iff & c = \frac{1+\sqrt[3]{3}^2}{2}.
+\end{array}
+$$
+
+D'où $\forall x\in\mathbb{R}:\ F(x)=\sqrt{x^2+1}+x+\frac{1+\sqrt[3]{3}^2}{2}$.
