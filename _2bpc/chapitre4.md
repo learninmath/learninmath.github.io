@@ -18,41 +18,41 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ### Raisonnement par récurrence
 
-Soit \\(p\\) un entier et \\(I\\) un intervalle.
+Soit $p$ un entier et $I$ un intervalle.
 
-On considère la suite \\((u_n)_{n\geq p}\\).
+On considère la suite $(u_n)_{n\geq p}$.
 
-Pour démontrer par récurrence la proposition \\(\forall n\geq p: u_n\in I\\), on répond au deux questions suivantes:
- 1. **Initialisation**: Vérifier que pour \\(n=p\\), on a bien \\(u_p\in I\\).
- 2. **Hérédité**: Soit \\(n\geq p\\), on suppose que \\(u_n\in I\\), montrer que \\(u_{n+1}\in I\\).
+Pour démontrer par récurrence la proposition $\forall n\geq p: u_n\in I$, on répond au deux questions suivantes:
+ 1. **Initialisation**: Vérifier que pour $n=p$, on a bien $u_p\in I$.
+ 2. **Hérédité**: Soit $n\geq p$, on suppose que $u_n\in I$, montrer que $u_{n+1}\in I$.
 
 > [!IMPORTANT] <strong>Important</strong>
-> Pour une suite définie par \\(u_{n+1}=f(u_n)\\), on utilise, pour établir l'**hérédité**, le fait que \\(f(I)\subset I\\). Ainsi pour tout \\(n\geq p\\) que:
+> Pour une suite définie par $u_{n+1}=f(u_n)$, on utilise, pour établir l'**hérédité**, le fait que $f(I)\subset I$. Ainsi pour tout $n\geq p$ que:
 >\\[u_n\in I\implies f(u_n)\in f(I)\implies u_{n+1}\in I\\]
 
 ### Monotonie d'une suite
 
-Pour déterminer la monotonie d'une suite \\((u_n)_{n\geq p}\\), on procède généralement de la manière suivante:
-1. Soit \\(n\geq p\\), calculer puis factoriser \\(u_{n+1}-u_n\\).
+Pour déterminer la monotonie d'une suite $(u_n)_{n\geq p}$, on procède généralement de la manière suivante:
+1. Soit $n\geq p$, calculer puis factoriser $u_{n+1}-u_n$.
 2. Étudier le signe de l'expression obtenue et en déduire:
-    - si \\(\forall n\geq p:\ u_{n+1}\geq u_n\\), alors la suite est **croissante**.
-    - si \\(\forall n\geq p:\ u_{n+1}\leq u_n\\), alors la suite est **décroissante**.
+    - si $\forall n\geq p:\ u_{n+1}\geq u_n$, alors la suite est **croissante**.
+    - si $\forall n\geq p:\ u_{n+1}\leq u_n$, alors la suite est **décroissante**.
 
 > [!IMPORTANT] <strong>Important</strong>
-> Pour une suite définie par \\(u_{n+1}=f(u_n)\\), on peut déterminer sa monotonie en comparant \\(f(x)\\) et \\(x\\) sur un intervalle \\(I\\).
->- Si \\(\forall n\geq p:\ u_n\in I\\) et \\(\forall x\in I:\ f(x)\geq x\\), alors \\(\forall n\geq p:\ u_{n+1}=f(u_n)\geq u_n\\) et la suite est croissante.
->- Si \\(\forall n\geq p:\ u_n\in I\\) et \\(\forall x\in I:\ f(x)\leq x\\), alors \\(\forall n\geq p:\ u_{n+1}=f(u_n)\leq u_n\\) et la suite est décroissante.
+> Pour une suite définie par $u_{n+1}=f(u_n)$, on peut déterminer sa monotonie en comparant $f(x)$ et $x$ sur un intervalle $I$.
+>- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\geq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\geq u_n$ et la suite est croissante.
+>- Si $\forall n\geq p:\ u_n\in I$ et $\forall x\in I:\ f(x)\leq x$, alors $\forall n\geq p:\ u_{n+1}=f(u_n)\leq u_n$ et la suite est décroissante.
 
 ### Limites de quelques suites
 
 #### Convergence et divergence
 
-- Une suite \\((u_n)\_{n\geq p}\\) est dite **convergente** si sa limite \\(\lim u_n\\) existe et est un réel.
+- Une suite $(u_n)\_{n\geq p}$ est dite **convergente** si sa limite $\lim u_n$ existe et est un réel.
 - Elle dite **divergente** sinon,, c’est-à-dire si elle n'admet pas de limite réelle.
 
 #### Condition suffisante de convergence
 
-Si une suite \\((u_n)\_{n\geq p}\\) est:
+Si une suite $(u_n)\_{n\geq p}$ est:
 - croissante et majorée,
 - ou décroissante et minorée,
 
@@ -62,69 +62,102 @@ alors elle est convergente.
 
 ##### Critère des gendarmes
 
-Si \\((u_n)\_{n\geq p}\\), \\((v_n)\_{n\geq p}\\) et \\((w_n)\_{n\geq p}\\) sont des suites telles que:
-- \\(\forall n\geq p:\ v_n\leq u_n\leq w_n\\),
-- \\(\lim v_n=\lim w_n=l\\), où \\(l\\) est un réel,
+Si $(u_n)\_{n\geq p}$, $(v_n)\_{n\geq p}$ et $(w_n)\_{n\geq p}$ sont des suites telles que:
+- $\forall n\geq p:\ v_n\leq u_n\leq w_n$,
+- $\lim v_n=\lim w_n=l$, où $l$ est un réel,
 
-alors \\(\lim u_n=l\\).
+alors $\lim u_n=l$.
 
 ##### Critères de comparaison
 
-- Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
-    - \\(\forall n\geq p:\ u_n\leq v_n\\),
-    - \\(\lim v_n=-\infty\\),
+- Si $(u_n)\_{n\geq p}$ et $(v_n)\_{n\geq p}$ sont deux suites telles que:
+    - $\forall n\geq p:\ u_n\leq v_n$,
+    - $\lim v_n=-\infty$,
 
-  alors \\(\lim u_n=-\infty\\).
-- Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
-    - \\(\forall n\geq p:\ u_n\geq v_n\\),
-    - \\(\lim v_n=+\infty\\),
+  alors $\lim u_n=-\infty$.
+- Si $(u_n)\_{n\geq p}$ et $(v_n)\_{n\geq p}$ sont deux suites telles que:
+    - $\forall n\geq p:\ u_n\geq v_n$,
+    - $\lim v_n=+\infty$,
 
-  alors \\(\lim u_n=+\infty\\).
+  alors $\lim u_n=+\infty$.
 
 ##### Critère de la valeur absolue
 
-Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites telles que:
-- \\(\forall n\geq p:\ |u_n-l|\leq v_n\\), où \\(l\\) est un réel,
-- \\(\lim v_n=0\\),
+Si $(u_n)\_{n\geq p}$ et $(v_n)\_{n\geq p}$ sont deux suites telles que:
+- $\forall n\geq p:\ |u_n-l|\leq v_n$, où $l$ est un réel,
+- $\lim v_n=0$,
 
-alors \\(\lim u_n=l\\).
+alors $\lim u_n=l$.
 
-#### Suite de terme général \\(n^a;\ (a\in\mathbb{Q}^\ast)\\)
+#### Suite de terme général $n^a;\ (a\in\mathbb{Q}^\ast)$
 
-Pour tout \\(a\\) de \\(\mathbb{Q}^\ast\\):
-- Si \\(a>0\\), alors \\(\lim n^a=+\infty\\) ;
-- Si \\(a<0\\), alors \\(\lim n^a=0\\).
+Pour tout $a$ de $\mathbb{Q}^\ast$:
+- Si $a>0$, alors $\lim n^a=+\infty$ ;
+- Si $a<0$, alors $\lim n^a=0$.
 
-En particulier, pour tout \\(p\\) de \\(\mathbb{N}^\ast\\):
-- \\(\lim n^p=+\infty\\) et \\(\lim \frac1{n^p}=0\\) ;
-- \\(\lim \sqrt[p]{n}=+\infty\\) et \\(\lim \frac1{\sqrt[p]{n}}=0\\).
+En particulier, pour tout $p$ de $\mathbb{N}^\ast$:
+- $\lim n^p=+\infty$ et $\lim \frac1{n^p}=0$ ;
+- $\lim \sqrt[p]{n}=+\infty$ et $\lim \frac1{\sqrt[p]{n}}=0$.
 
-#### Suite de terme général \\(a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\\{1\\})\\)
+#### Suite de terme général $a^n;\ (a\in\mathbb{R}^\ast\smallsetminus\\{1\\})$
 
-Pour tout \\(a\\) de \\(\mathbb{R}^\ast\smallsetminus\\{1\\}\\):
-- Si \\(a>1\\), alors \\(\lim a^n=+\infty\\) ;
-- Si \\(-1<a<1\\), alors \\(\lim a^0=0\\) ;
-- Si \\(a\leq -1\\), la suite de terme général \\(a^n\\) n'admet pas de limite.
+Pour tout $a$ de $\mathbb{R}^\ast\smallsetminus\\{1\\}$:
+- Si $a>1$, alors $\lim a^n=+\infty$ ;
+- Si $-1<a<1$, alors $\lim a^0=0$ ;
+- Si $a\leq -1$, la suite de terme général $a^n$ n'admet pas de limite.
 
-#### Suite de type \\(u_n=f(v_n)\\)
+#### Suite de type $u_n=f(v_n)$
 
-Si \\((u_n)\_{n\geq p}\\) et \\((v_n)\_{n\geq p}\\) sont deux suites, et si \\(f\\) est une fonction numérique telle que:
-- \\(\forall n\geq p:\ u_n=f(v_n)\\),
-- \\(\lim v_n=l\\),
-- \\(f\\) est définie et continue en \\(l\\),
+Si $(u_n)\_{n\geq p}$ et $(v_n)\_{n\geq p}$ sont deux suites, et si $f$ est une fonction numérique telle que:
+- $\forall n\geq p:\ u_n=f(v_n)$,
+- $\lim v_n=l$,
+- $f$ est définie et continue en $l$,
 
-alors \\(\lim u_n=f(l)\\)
+alors $\lim u_n=f(l)$
 
-#### Suite de type \\(u_{n+1}=f(u_n)\\)
+#### Suite de type $u_{n+1}=f(u_n)$
 
-Si \\((u_n)\_{n\geq p}\\) est une suite, et si \\(f\\) est une fonction définie sur un intervalle $I$ telle que:
-- \\(\forall n\geq p:\ u_n\in I\ \text{et}\ u_{n+1}=f(u_n)\\),
-- la suite \\((u_n)\_{n\geq p}\\) est convergente,
+Si $(u_n)\_{n\geq p}$ est une suite, et si $f$ est une fonction définie sur un intervalle $I$ telle que:
+- $\forall n\geq p:\ u_n\in I\ \text{et}\ u_{n+1}=f(u_n)$,
+- la suite $(u_n)\_{n\geq p}$ est convergente,
 - la fonction $f$ est continue sur $I$,
-- \\(f(I)\subset I\\),
+- $f(I)\subset I$,
 
-alors \\(\lim u_n\\) est l'unique solution de l'équation \\(f(x)=x\\) dans \\(I\\).
+alors $\lim u_n$ est l'unique solution de l'équation $f(x)=x$ dans $I$.
 
 ## Exercices résolus
 
-### Exercice 4 de la série
+### Exercice 5 de la série
+
+Soit $(u_n)$ la suite définie par
+$\left\{\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\Nn \end{array}\right.$.
+
+#### 1. Montrer que $\forall n\in\Nn:\ u_n>\sqrt{2}$.
+
+* **Initialisation**: Pour $n=0$ on a $u_0=2$, donc $u_0>\sqrt{2}$.
+* **Hérédité**: Soit $n\in\mathbb{N}$, supposons que $u_n>\sqrt{2}$ et montrons que $u_{n+1}>\sqrt{2}$.
+  
+  Remarquons que:
+
+  $$
+  \begin{array}{rcl}
+  u_{n+1} & = & \frac12 u_n + \frac1{u_n} \\
+          & = & \frac12 u_n + \frac1{u_n} - \sqrt{2} + \sqrt{2} \\
+          & = & \frac1{2u_n} \left(u_n^2 + 2 - 2 u_n \sqrt{2}\right) + \sqrt{2} \\
+          & = & \frac1{2u_n} \left(u_n - \sqrt{2}\right)^2 + \sqrt{2}. \\
+  \end{array}
+  $$
+
+  Alors:
+  $$
+  \begin{array}{rcl}
+  u_n > \sqrt{2} & \iff & u_n - \sqrt{2} > 0 \\
+                 & \iff & \left(u_n - \sqrt{2}\right)^2 > 0 \\
+                 & \iff & \left(u_n - \sqrt{2}\right)^2 + \sqrt{2} > \sqrt{2} \\
+                 & \iff & u_{n+1} > \sqrt{2}. \\
+  \end{array}
+  $$
+
+  Donc $u_{n+1} > \sqrt{2}$.
+
+D'où, par principe de récurrence, on a: $\forall n\in\Nn:\ u_n>\sqrt{2}$.
