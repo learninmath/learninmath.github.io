@@ -151,8 +151,8 @@ $\left\{\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\Nn \end{
   Alors:
   $$
   \begin{array}{rcl}
-  u_n > \sqrt{2} & \iff & u_n - \sqrt{2} > 0 \\
-                 & \iff & \left(u_n - \sqrt{2}\right)^2 > 0 \\
+  u_n > \sqrt{2} & \iff & u_n - \sqrt{2} > 0 \text{ et } \frac1{2u_n}>0\\
+                 & \iff & \left(u_n - \sqrt{2}\right)^2 > 0 \text{ et } \frac1{2u_n}>0 \\
                  & \iff & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 > 0 \\
                  & \iff & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 + \sqrt{2} > \sqrt{2} \\
                  & \iff & u_{n+1} > \sqrt{2}. \\
