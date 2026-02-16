@@ -130,11 +130,10 @@ alors $\lim u_n$ est l'unique solution de l'équation $f(x)=x$ dans $I$.
 ### Exercice 5 de la série
 
 Soit $(u_n)$ la suite définie par
-$\left\lbrace
-\begin{array}{l}
-u_0=2 \\\\
+$\begin{cases}
+u_0=2 \\
 u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mathbb{N}
-\end{array}\right.$.
+\end{cases}$.
 
 #### 1. Montrer que $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}$.
 
@@ -173,7 +172,7 @@ Soit $n\in\mathbb{N}$, on a:
 
 $$
 \begin{array}{rcl}
-u_{n+1} - u_n & = & \frac12 u_n + \frac1{u_n} \\
+u_{n+1} - u_n & = & \frac12 u_n + \frac1{u_n} - u_n \\
               & = & \frac1{u_n} - \frac12 u_n \\
               & = & \frac{2-u_n^2}{2u_n}
 \end{array}
