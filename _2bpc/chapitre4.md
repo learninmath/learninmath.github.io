@@ -130,7 +130,11 @@ alors $\lim u_n$ est l'unique solution de l'équation $f(x)=x$ dans $I$.
 ### Exercice 5 de la série
 
 Soit $(u_n)$ la suite définie par
-$\left\lbrace\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mathbb{N} \end{array}\right.$.
+$\left\lbrace
+\begin{array}{l}
+u_0=2 \\\\
+u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mathbb{N}
+\end{array}\right.$.
 
 #### 1. Montrer que $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}$.
 
@@ -151,11 +155,11 @@ $\left\lbrace\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mat
   Alors:
   $$
   \begin{array}{rcl}
-  u_n > \sqrt{2} & \iff & u_n - \sqrt{2} > 0 \text{ et } 2u_n > 0\\
-                 & \iff & \left(u_n - \sqrt{2}\right)^2 > 0 \text{ et } \frac1{2u_n} > 0 \\
-                 & \iff & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 > 0 \\
-                 & \iff & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 + \sqrt{2} > \sqrt{2} \\
-                 & \iff & u_{n+1} > \sqrt{2}. \\
+  u_n > \sqrt{2} & \implies & u_n - \sqrt{2} > 0 \text{ et } 2u_n > 0\\
+                 & \implies & \left(u_n - \sqrt{2}\right)^2 > 0 \text{ et } \frac1{2u_n} > 0 \\
+                 & \implies & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 > 0 \\
+                 & \implies & \frac1{2u_n}\left(u_n - \sqrt{2}\right)^2 + \sqrt{2} > \sqrt{2} \\
+                 & \implies & u_{n+1} > \sqrt{2}. \\
   \end{array}
   $$
 
@@ -167,4 +171,12 @@ D'où, par principe de récurrence, on a: $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}
 
 Soit $n\in\mathbb{N}$, on a:
 
+$$
+\begin{array}{rcl}
+u_{n+1} - u_n & = & \frac12 u_n + \frac1{u_n} \\
+              & = & \frac1{u_n} - \frac12 u_n \\
+              & = & \frac{2-u_n^2}{2u_n}
+\end{array}
+$$
 
+Et on a:
