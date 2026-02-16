@@ -127,7 +127,7 @@ alors $\lim u_n$ est l'unique solution de l'équation $f(x)=x$ dans $I$.
 
 ## Exercices résolus
 
-### Exercice 5 de la série
+### Exercice 6 de la série
 
 Soit $(u_n)$ la suite définie par
 $\begin{cases}
@@ -152,6 +152,7 @@ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mathbb{N}
   $$
 
   Alors:
+
   $$
   \begin{array}{rcl}
   u_n > \sqrt{2} & \implies & u_n - \sqrt{2} > 0 \text{ et } 2u_n > 0\\
@@ -166,7 +167,7 @@ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\mathbb{N}
 
 D'où, par principe de récurrence, on a: $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}$.
 
-#### 2. (a) Montrer que $(u_n)$ est décroissante.
+#### 2. Montrer que $(u_n)$ est décroissante.
 
 Soit $n\in\mathbb{N}$, on a:
 
@@ -183,12 +184,14 @@ Et on a:
 $$
 \begin{array}{rcl}
 u_n > \sqrt{2} & \implies & u_n^2 > 2 \text{ et } 2u_n > 0 \\
-                & \implies & 2 - u_n^2 < 0 \text{ et } 2u_n > 0\\
-                & \implies & \frac{2-u_n^2}{2u_n} > 0 \\
-                & \implies & u_{n+1} - u_n < 0
+               & \implies & 2 - u_n^2 < 0 \text{ et } 2u_n > 0\\
+               & \implies & \frac{2-u_n^2}{2u_n} > 0 \\
+               & \implies & u_{n+1} - u_n < 0
 \end{array}
 $$
 
 Alors $\forall n\in\mathbb{N}:\ u_{n+1} < u_n$.
 
 D'où la suite $(u_n)$ est décroissante.
+
+#### 3. (a) Vérifier que $\forall n\in\mathbb{N}:\ u_{n+1}-\sqrt{2} < \frac12(u_n-\sqrt{2}).
