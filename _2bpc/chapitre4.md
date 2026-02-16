@@ -132,7 +132,7 @@ alors $\lim u_n$ est l'unique solution de l'équation $f(x)=x$ dans $I$.
 Soit $(u_n)$ la suite définie par
 $\left\{\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\Nn \end{array}\right.$.
 
-#### 1. Montrer que $\forall n\in\Nn:\ u_n>\sqrt{2}$.
+#### 1. Montrer que $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}$.
 
 * **Initialisation**: Pour $n=0$ on a $u_0=2$, donc $u_0>\sqrt{2}$.
 * **Hérédité**: Soit $n\in\mathbb{N}$, supposons que $u_n>\sqrt{2}$ et montrons que $u_{n+1}>\sqrt{2}$.
@@ -160,4 +160,4 @@ $\left\{\begin{array}{l} u_0=2 \\ u_{n+1}=\frac12u_n+\frac1{u_n};\ n\in\Nn \end{
 
   Donc $u_{n+1} > \sqrt{2}$.
 
-D'où, par principe de récurrence, on a: $\forall n\in\Nn:\ u_n>\sqrt{2}$.
+D'où, par principe de récurrence, on a: $\forall n\in\mathbb{N}:\ u_n>\sqrt{2}$.
