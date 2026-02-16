@@ -180,3 +180,16 @@ u_{n+1} - u_n & = & \frac12 u_n + \frac1{u_n} \\
 $$
 
 Et on a:
+
+$$
+\begin{array}{rcl}
+u_n > \sqrt{2} & \implies & u_n^2 > 2 \text{ et } 2u_n > 0 \\
+                & \implies & 2 - u_n^2 < 0 \text{ et } 2u_n > 0\\
+                & \implies & \frac{2-u_n^2}{2u_n} > 0 \\
+                & \implies & u_{n+1} - u_n < 0
+\end{array}
+$$
+
+Alors $\forall n\in\mathbb{N}:\ u_{n+1} < u_n$.
+
+D'où la suite $(u_n)$ est décroissante.
