@@ -194,4 +194,4 @@ Alors $\forall n\in\mathbb{N}:\ u_{n+1} < u_n$.
 
 D'où la suite $(u_n)$ est décroissante.
 
-#### 3. (a) Vérifier que $\forall n\in\mathbb{N}:\ u\_{n+1}-\sqrt{2} < \frac12(u_n-\sqrt{2}).
+#### 3. (a) Vérifier que $\forall n\in\mathbb{N}:\ u_{n+1}-\sqrt{2} < \frac12(u_n-\sqrt{2})$.
