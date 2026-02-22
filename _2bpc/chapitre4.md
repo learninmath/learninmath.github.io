@@ -184,7 +184,7 @@ Et on a:
 $$
 \begin{array}{rcl}
 u_n > \sqrt{2} & \implies & u_n^2 > 2 \text{ et } 2u_n > 0 \\
-               & \implies & 2 - u_n^2 < 0 \text{ et } 2u_n > 0\\
+               & \implies & 2 - u_n^2 < 0 \text{ et } 2u_n > 0 \\
                & \implies & \frac{2-u_n^2}{2u_n} > 0 \\
                & \implies & u_{n+1} - u_n < 0
 \end{array}
@@ -195,3 +195,27 @@ Alors $\forall n\in\mathbb{N}:\ u_{n+1} < u_n$.
 D'où la suite $(u_n)$ est décroissante.
 
 #### 3. (a) Vérifier que $\forall n\in\mathbb{N}:\ u_{n+1}-\sqrt{2} < \frac12(u_n-\sqrt{2})$.
+
+Soit $n\in\mathbb{N}$, on a:
+
+$$
+\begin{array}{rcl}
+u_{n+1} - \sqrt{2} & = & \frac12 u_n + \frac1{u_n} - \sqrt{2} \\
+                   & = & \left(\frac12 u_n - \sqrt{2}\right) + \frac1{u_n}.
+\end{array}
+$$
+
+Et on a
+
+$$
+\begin{array}{rcl}
+u_n > \sqrt{2} & \implies & \frac1{u_n} < \frac1{\sqrt{2}} \\
+               & \implies & \frac1{u_n} < \frac{\sqrt{2}}2 \\
+               & \implies & \left(\frac12 u_n - \sqrt{2}\right) + \frac1{u_n} < \left(\frac12 u_n - \sqrt{2}\right) + \frac{\sqrt{2}}2 \\
+               & \implies & u_{n+1} - \sqrt{2} < \frac12 u_n - \frac{\sqrt{2}}2 \\
+               & \implies & u_{n+1} - \sqrt{2} < \frac12 (u_n - \sqrt{2}). \\
+\end{array}
+$$
+
+D'où $\forall n\in\mathbb{N}:\ u_{n+1}-\sqrt{2} < \frac12(u_n-\sqrt{2})$.
+
