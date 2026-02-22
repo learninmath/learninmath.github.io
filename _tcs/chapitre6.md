@@ -106,7 +106,7 @@ On a $P(1)=0$ et $P(-3)=0$, alors $1$ et $-3$ sont des racines de $P(x)$, donc $
 
 Ainsi il existe un polynôme $Q(x)$ de degré $1$ (car $P(x)$ est de degré $3$) tel que $P(x)=(x-1)(x+3)Q(x)$. Il suffira alors qu'on détermine $Q(x)$.
 
-on divise d'abord $P(x)$ par $(x-1)$.
+on divise d'abord $P(x)$ par $x-1$.
 
 $$
 \begin{array}{cccccc}
