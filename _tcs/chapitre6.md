@@ -144,10 +144,10 @@ $$
 & & & & 0
 \end{array}
 \begin{array}{c}
-\begin{array}{|cccc}
-&& x & +3 \\
+\begin{array}{|ccc}
+& x & +3 \\
 \hline
-& & x & -2 \\
+& x & -2 \\
 \\ \\ \\
 \end{array}
 \end{array}
