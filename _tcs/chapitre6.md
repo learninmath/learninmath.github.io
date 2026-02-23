@@ -92,9 +92,9 @@ Et
 $$
 \begin{array}{rcl}
     P(-3) & = & (-3)^3-7\times (-3)+6 \\
-         & = & -27+21+6 \\
-         & = & -27+27 \\
-         & = & 0.
+          & = & -27+21+6 \\
+          & = & -27+27 \\
+          & = & 0.
 \end{array}
 $$
 
@@ -156,3 +156,31 @@ $$
 On a donc $Q(x)=x-2$.
 
 D'où $P(x)=(x+1)(x+3)(x-2)$.
+
+#### 3. Soit $x\in[0;1]$. Montrer que $\left|\frac{P(x)}{x+3}\right|\leq 2$.
+
+Soit $x\in[0;1]$.
+
+On a: $P(x)=(x+1)(x+3)(x-2)$.
+
+Puisque $x+3\neq 0$ pour tout $x$ de $[0;1]$, on a $\frac{P(x)}{x+3}=(x+1)(x-2)$.
+
+Et on a:
+
+$$
+\begin{array}{rcl}
+    x \in [0;1] & \text{donc} & 0\leq x\leq 1 \\
+                &             & 0-1\leq x-1\leq 1-1\ \text{ et }\ 0-2\leq x-2\leq 1-2 \\
+                &             & -1\leq x-1\leq 0\ \text{ et }\ -2\leq x-2\leq -1 \\
+                &             & 0\leq -(x-1)\leq 1\ \text{ et }\ 1\leq -(x-2)\leq 2 \\
+                &             & 0\times 1\leq [-(x-1)][-(x+3)]\leq 1\times 2 \\
+                &             & 0\leq (x-1)(x+3)\leq 2 \\
+                &             & 0\leq \frac{P(x)}{x+3}\leq 2 \\
+\end{array}
+$$
+
+Comme $\frac{P(x)}{x+3}\geq 0$, on a $\left|\frac{P(x)}{x+3}\right|=\frac{P(x)}{x+3}$.
+
+Et comme $\frac{P(x)}{x+3}\leq 2$, on a $\left|\frac{P(x)}{x+3}\right|\leq 2$.
+
+D'où le résultat voulu.
