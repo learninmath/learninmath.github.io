@@ -122,7 +122,7 @@ $$
 & & & & & 0
 \end{array}
 \begin{array}{c}
-\begin{array}{\lvertcccc}
+\begin{array}{|cccc}
 && x & -1 \\
 \hline
 &x^2 & +x & -6 \\
@@ -144,7 +144,7 @@ $$
 & & & & 0
 \end{array}
 \begin{array}{c}
-\begin{array}{\lvertccc}
+\begin{array}{|ccc}
 & x & +3 \\
 \hline
 & x & -2 \\
