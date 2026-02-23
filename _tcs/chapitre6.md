@@ -122,7 +122,7 @@ $$
 & & & & & 0
 \end{array}
 \begin{array}{c}
-\begin{array}{ |cccc}
+\begin{array}{\lvertcccc}
 && x & -1 \\
 \hline
 &x^2 & +x & -6 \\
@@ -144,7 +144,7 @@ $$
 & & & & 0
 \end{array}
 \begin{array}{c}
-\begin{array}{ |ccc}
+\begin{array}{\lvertccc}
 & x & +3 \\
 \hline
 & x & -2 \\
@@ -157,7 +157,7 @@ On a donc $Q(x)=x-2$.
 
 D'où $P(x)=(x+1)(x+3)(x-2)$.
 
-#### 3. Soit $x\in[0;1]$. Montrer que $\left |\frac{P(x)}{x+3}\right |\leq 2$.
+#### 3. Soit $x\in[0;1]$. Montrer que $\left\lvert\frac{P(x)}{x+3}\right\rvert\leq 2$.
 
 Soit $x\in[0;1]$.
 
@@ -179,8 +179,8 @@ $$
 \end{array}
 $$
 
-Comme $\frac{P(x)}{x+3}\geq 0$, on a $\left |\frac{P(x)}{x+3}\right |=\frac{P(x)}{x+3}$.
+Comme $\frac{P(x)}{x+3}\geq 0$, on a $\left\lvert\frac{P(x)}{x+3}\right\rvert=\frac{P(x)}{x+3}$.
 
-Et comme $\frac{P(x)}{x+3}\leq 2$, on a $\left |\frac{P(x)}{x+3}\right |\leq 2$.
+Et comme $\frac{P(x)}{x+3}\leq 2$, on a $\left\lvert\frac{P(x)}{x+3}\right\rvert\leq 2$.
 
 D'où le résultat voulu.
