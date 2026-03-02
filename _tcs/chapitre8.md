@@ -80,14 +80,19 @@ Une racine du binôme $ax^2+bx+c$ est un réel $x$ vérifiant l'équation $ax^2+
 #### Factorisation d'un trinôme de second degré
 
 * Si $\Delta>0$, ce trinôme admet deux racines $x_1$ et $x_2$, et on a:
+
 $$
 ax^2+bx+c=a(x-x_1)(x-x_2).
 $$
+
 * Si $\Delta=0$, ce trinôme admet une seule racine $x_0$, et on a:
+
 $$
 ax^2+bx+c=a(x-x_0)^2.
 $$
+
 * Si $\Delta<0$, ce trinôme n'admet pas de racine et
+
 $$
 ax^2+bx+c \text{ est impossible à factoriser}.
 $$
@@ -96,6 +101,7 @@ $$
 
 * Si $\Delta>0$, ce trinôme admet deux racines $x_1$ et $x_2$ (on suppose que $x_1<x_2$), et son tableau de signe est le suivant:
   * Si $a>0$
+    
     $$
     \begin{array}{c|lcccccr}
         x & -\infty & & x_1 & & x_2 & & +\infty \\
@@ -103,7 +109,9 @@ $$
         ax^2+bx+c & & + & 0 & - & 0 & + &
     \end{array}
     $$
+
   * Si $a<0$
+    
     $$
     \begin{array}{c|lcccccr}
         x & -\infty & & x_1 & & x_2 & & +\infty \\
@@ -111,8 +119,10 @@ $$
         ax^2+bx+c & & - & 0 & + & 0 & - &
     \end{array}
     $$
+
 * Si $\Delta=0$, ce trinôme admet une seule racine $x_0$, et son tableau de signe est le suivant:
   * Si $a>0$
+    
     $$
     \begin{array}{c|lcccr}
         x & -\infty & & x_0 & & +\infty \\
@@ -120,7 +130,9 @@ $$
         ax^2+bx+c & & + & 0 & + &
     \end{array}
     $$
+
   * Si $a<0$
+    
     $$
     \begin{array}{c|lcccr}
         x & -\infty & & x_0 & & +\infty \\
@@ -128,8 +140,10 @@ $$
         ax^2+bx+c & & - & 0 & - &
     \end{array}
     $$
+
 * Si $\Delta<0$, ce trinôme n'admet pas de racine et son tableau de signe est le suivant:
   * Si $a>0$
+    
     $$
     \begin{array}{c|lcccr}
         x & -\infty & & & & +\infty \\
@@ -137,7 +151,9 @@ $$
         ax^2+bx+c & & & + & &
     \end{array}
     $$
+
   * Si $a<0$
+    
     $$
     \begin{array}{c|lcccr}
         x & -\infty & & & & +\infty \\
