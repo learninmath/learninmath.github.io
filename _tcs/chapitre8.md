@@ -177,10 +177,14 @@ Résoudre une inéquation sous l'une des formes $ax^2+bx+c\geq 0$, $ax^2+bx+c>0$
 
 Soient $P(x)$ et $Q(x)$ les polynômes.
 
-
-| Équations | | | | Simplification 
-|:---:|---|---|---|:---:
-| $P(x)\times Q(x) =0$ | | | | $P(x)=0$ ou $Q(x)=0$
-| $\frac{P(x)}{Q(x)}=0$ et $Q(x)\neq 0$ | | | | $P(x)=0$
-| $\lvert P(x)\rvert=0$ | | | | $P(x)=0$
-| $\lvert P(x)\rvert=Q(x)$ et $Q(x)>0$ | | | | $P(x)=Q(x)$ et $P(x)=-Q(x)$
+$$
+\begin{array}{cccc}
+P(x)\times Q(x)=0 &&& P(x)=0\text{ ou }Q(x)=0 \\
+\hline
+\frac{P(x)}{Q(x)}=0\text{ avec }Q(x)\neq 0 &&& P(x)=0 \\
+\hline
+\lvert P(x)\rvert=0 &&& P(x)=0 \\
+\hline
+\lvert P(x)\rvert=Q(x)\text{ avec }Q(x)>0 &&& P(x)=Q(x)\text{ ou }P(x)=-Q(x)
+\end{array}
+$$
