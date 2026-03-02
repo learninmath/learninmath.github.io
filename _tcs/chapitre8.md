@@ -173,18 +173,19 @@ On considère l'équation $ax^2+bx+c=0$.
 
 Résoudre une inéquation sous l'une des formes $ax^2+bx+c\geq 0$, $ax^2+bx+c>0$, $ax^2+bx+c\leq 0$, ou $ax^2+bx+c<0$, revient à étudier le signe du trinôme $ax^2+bx+c$, et déduire l'intervalle (ou les intervalles) sur lequel (ou lesquels) l'inéquation est vérifiée.
 
-### Équations d'autres types
+### Règles de résolutions des équations
 
 Soient $P(x)$ et $Q(x)$ les polynômes.
+* $P(x)\times Q(x)=0$, si et seulement si $P(x)=0$ ou $Q(x)=0$.
+* $\frac{P(x)}{Q(x)}=0$ avec $Q(x)\neq 0$, si et seulement si $P(x)=0$.
+* $\lvert P(x)\rvert=0$, si et seulement si $P(x)=0$.
+* $\lvert P(x)\rvert=Q(x)$ avec $Q(x)>0$, si et seulement si $P(x)=Q(x)$ ou $P(x)=-Q(x)$.
+* $\left(P(x)\right)^2=0$, si et seulement si $P(x)=0$.
+* $\left(P(x)\right)^2=Q(x)$ avec $Q(x)>0$, si et seulement si $\lvert P(x)\rvert=\sqrt{Q(x)}$.
 
-$$
-\begin{array}{cccc}
-P(x)\times Q(x)=0 &&& P(x)=0\text{ ou }Q(x)=0 \\
-\hline
-\frac{P(x)}{Q(x)}=0\text{ avec }Q(x)\neq 0 &&& P(x)=0 \\
-\hline
-\lvert P(x)\rvert=0 &&& P(x)=0 \\
-\hline
-\lvert P(x)\rvert=Q(x)\text{ avec }Q(x)>0 &&& P(x)=Q(x)\text{ ou }P(x)=-Q(x)
-\end{array}
-$$
+### Règles de résolutions des inéquations
+
+Soient $P(x)$ et $Q(x)$ les polynômes.
+* Les inéquations de premier membre $P(x)\times Q(x)$ ou $\frac{P(x)}{Q(x)}$ se résout par l'étude du signe de ses expressions.
+* $\lvert P(x)\rvert\le Q(x)$ avec $Q(x)>0$, si et seulement si $-Q(x)\le P(x)\le Q(x)$.
+* $\lvert P(x)\rvert\ge Q(x)$ avec $Q(x)>0$, si et seulement si $P(x)\le-Q(x)$ ou $ P(x)\ge Q(x)$.
