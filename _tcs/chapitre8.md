@@ -180,7 +180,7 @@ Soient $P(x)$ et $Q(x)$ les polynômes.
 
 | Équations | | Simplification 
 |:---:|:---:|:---:
-| $P(x)\times Q(x) =0$ | si et seulement si | $P(x)=0$ ou $Q(x)=0$
-| $\frac{P(x)}{Q(x)}=0$ et $Q(x)\neq 0$ | si et seulement si | $P(x)=0$
-| $\lvert P(x)\rvert=0$ | si et seulement si | $P(x)=0$
-| $\lvert P(x)\rvert=Q(x)$ et $Q(x)>0$ | si et seulement si | $P(x)=Q(x)$ et $P(x)=-Q(x)$
+| $P(x)\times Q(x) =0$ | | $P(x)=0$ ou $Q(x)=0$
+| $\frac{P(x)}{Q(x)}=0$ et $Q(x)\neq 0$ | | $P(x)=0$
+| $\lvert P(x)\rvert=0$ | | $P(x)=0$
+| $\lvert P(x)\rvert=Q(x)$ et $Q(x)>0$ | | $P(x)=Q(x)$ et $P(x)=-Q(x)$
