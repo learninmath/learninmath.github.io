@@ -46,3 +46,5 @@ Pour tous réels $a$ et $b$ strictement positifs et pour tout nombre rationnel $
 Soit $a$ un réel strictement positif, différent de 1.
 
 La fonction logarithme de base $a$, notée $\log_a$, est la fonction définie sur $]0;+\infty[$ par $\log_a(x)=\frac{\ln(x)}{\ln(a)}$.
+
+#### Propriétés algébriques
