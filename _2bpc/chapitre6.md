@@ -27,6 +27,7 @@ Pour tous réels $a$ et $b$ strictement positifs et pour tout nombre rationnel $
 * $\ln(a^r)=r\ln(a)$,
 * $\ln\left(\frac{a}{b}\right)=\ln(a)-\ln(b)$,
 * $\ln\left(\frac1{b}\right)=-\ln(b)$.
+* $\ln(e^r)=r$, où $e$ est le nombre d'Euler.
 
 #### Propriétés analytiques
 
@@ -48,3 +49,5 @@ Soit $a$ un réel strictement positif, différent de 1.
 La fonction logarithme de base $a$, notée $\log_a$, est la fonction définie sur $]0;+\infty[$ par $\log_a(x)=\frac{\ln(x)}{\ln(a)}$.
 
 #### Propriétés algébriques
+
+* $log_a(a)=1$
