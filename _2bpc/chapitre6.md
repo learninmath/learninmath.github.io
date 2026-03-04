@@ -36,8 +36,8 @@ Pour tous réels $a$ et $b$ strictement positifs et pour tout nombre rationnel $
 * La fonction $\ln$ est dérivable sur $]0;+\infty[$, et $\forall x\in]0;+\infty[:\ \ln'(x)=\frac1{x}$.
 * La fonction $\ln$ est strictement croissante sur $]0;+\infty[$.
 * La fonction $\ln$ a les limites suivantes:
-    * $\lim\limits_{\substack{x\to 0 \\ x>0}}\ln(x)=-\infty$,
-    * $\lim\limits_{\substack{x\to 0 \\ x>0}}x\ln(x)=0^-$,
+    * $\lim\limits_{x\to 0^+}\ln(x)=-\infty$,
+    * $\lim\limits_{x\to 0^+}x\ln(x)=0^-$,
     * $\lim\limits_{x\to 1}\frac{\ln(x)}{x-1}=1$,
     * $\lim\limits_{x\to +\infty}\ln(x)=+\infty$,
     * $\lim\limits_{x\to +\infty}\frac{\ln(x)}{x}=0^+$.
