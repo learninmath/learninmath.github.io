@@ -50,4 +50,10 @@ La fonction logarithme de base $a$, notée $\log_a$, est la fonction définie su
 
 #### Propriétés algébriques
 
-* $log_a(a)=1$
+Pour tous réels $x$ et $y$ strictement positifs et pour tout nombre rationnel $r$, on a:
+* $\log_a(x\times y)=\log_a(x)+\log_a(y)$,
+* $\log_a(x^r)=r\log_a(x)$,
+* $\log_a\left(\frac{x}{y}\right)=\log_a(x)-\log_a(y)$,
+* $\log_a\left(\frac1{x}\right)=-\log_a(x)$,
+* $\log_a(a^r)=r$,
+* $\log_{a^r}(x)=\frac1{r}\log_a(x)$
