@@ -56,4 +56,5 @@ Pour tous réels $x$ et $y$ strictement positifs et pour tout nombre rationnel $
 * $\log_a\left(\frac{x}{y}\right)=\log_a(x)-\log_a(y)$,
 * $\log_a\left(\frac1{x}\right)=-\log_a(x)$,
 * $\log_a(a^r)=r$,
-* $\log_{a^r}(x)=\frac1{r}\log_a(x)$
+* $\log_{a^r}(x)=\frac1{r}\log_a(x)$,
+* $\log_{\frac1{a}}(x)=-\log_a(x)$,
