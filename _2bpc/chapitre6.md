@@ -57,4 +57,22 @@ Pour tous réels $x$ et $y$ strictement positifs et pour tout nombre rationnel $
 * $\log_a\left(\frac1{x}\right)=-\log_a(x)$,
 * $\log_a(a^r)=r$,
 * $\log_{a^r}(x)=\frac1{r}\log_a(x)$,
-* $\log_{\frac1{a}}(x)=-\log_a(x)$,
+* $\log_{\frac1{a}}(x)=-\log_a(x)$.
+
+#### Propriétés analytiques
+
+* La fonction $\log_a$ est définie sur $]0;+\infty[$.
+* La fonction $\log_a$ est continue sur $]0;+\infty[$.
+* La fonction $\log_a$ est dérivable sur $]0;+\infty[$, et $\forall x\in]0;+\infty[:\ \log_a'(x)=\frac1{x\ln(a)}$.
+* La fonction $\log_a$ est strictement croissante sur $]0;+\infty[$, si $a>1$, et est strictement décroissante, si $0<a<1$.
+* La fonction $\log_a$ a les limites suivantes:
+    * si $a>1$:
+        * $\lim\limits_{x\to 0^+}\log_a(x)=-\infty$,
+        * $\lim\limits_{x\to 0^+}x\log_a(x)=0^-$,
+        * $\lim\limits_{x\to +\infty}\log_a(x)=+\infty$,
+        * $\lim\limits_{x\to +\infty}\frac{\log_a(x)}{x}=0^+$,
+    * si $0<a<1$:
+        * $\lim\limits_{x\to 0^+}\log_a(x)=+\infty$
+        * $\lim\limits_{x\to 0^+}x\log_a(x)=0^+$,
+        * $\lim\limits_{x\to +\infty}\log_a(x)=-\infty$
+        * $\lim\limits_{x\to +\infty}\frac{\log_a(x)}{x}=0^-$.
