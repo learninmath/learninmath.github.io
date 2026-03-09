@@ -24,6 +24,10 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL4.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
+- Correction du devoir libre 4 
+<a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL4-cor.pdf" target="_blank">
+<i class="fa-solid fa-file-pdf"></i>
+</a>.
 - Devoir surveillé 4: le jeudi 12/03/2026.
 
 <!-- ## Dernières vidéos ajoutées
