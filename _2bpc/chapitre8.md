@@ -26,14 +26,14 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
 ### Formes d'un nombre complexes
 
 * Forme algébrique: $z = \mathrm{Re}(z) + i\ \mathrm{Im}(z)$.
-* Forme trigonométrique: $z = |z|\ \left(\cos(\arg(z)) + i\ \sin(\arg(z))\right)$.
-* Forme exponentielle: $z = |z|\ e^{i\ \arg(z)}$.
+* Forme trigonométrique: $z = \lvert z\rvert\ \left(\cos(\arg(z)) + i\ \sin(\arg(z))\right)$.
+* Forme exponentielle: $z = \lvert z\rvert\ e^{i\ \arg(z)}$.
 
 ### Conjugué, module, argument
 
 * Conjugué: $\bar{z} = \mathrm{Re}(z) - i\ \mathrm{Im}(z)$.
-* Module: $|z| = \small\sqrt{\left(\mathrm{Re}(z)\right)^2 + \left(\mathrm{Im}(z)\right)^2}$ et $|z|^2=z\bar{z}$.
-* Argument ($z\neq0$): $\cos(\arg(z)) = \frac{\mathrm{Re}(z)}{|z|}$ et $\sin(\arg(z)) = \frac{\mathrm{Im}(z)}{|z|}$.
+* Module: $\lvert z\rvert = \small\sqrt{\left(\mathrm{Re}(z)\right)^2 + \left(\mathrm{Im}(z)\right)^2}$ et $\lvert z\rvert^2=z\bar{z}$.
+* Argument ($z\neq0$): $\cos(\arg(z)) = \frac{\mathrm{Re}(z)}{\lvert z\rvert}$ et $\sin(\arg(z)) = \frac{\mathrm{Im}(z)}{\lvert z\rvert}$.
 * Relation d'Euler: $e^{i\ \arg(z)}=\cos(\arg(z)) + i\ \sin(\arg(z))$.
 
 ### Caractérisation des réels et des imaginaire purs
@@ -53,11 +53,11 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
     * Pour simplifier on représente chaque nombre complexe $z$ par $a+ib$, où $a=\mathrm{Re}(z)$ et $b=\mathrm{Im}(z)$.
     * $z+z' = (a+ib) + (a'+ib') = (a +a') + i(b + b')$,
     * $zz' = (a+ib) \times (a'+ib') = (aa'-bb') + i(ab'+ba')$,
-    * $\frac{1}{z} = \frac{1}{a+ib} = \frac{a}{a^2+b^2}-i\frac{b}{a^2+b^2} = \frac{1}{|z|^2}\bar{z}$, avec $z\neq0$,
-    * $\frac{z'}{z} = \frac{a'+ib'}{a+ib} = \frac{aa'+bb'}{a^2+b^2}-i\frac{ab'-ba'}{a^2+b^2} = \frac{1}{|z|^2}z'\bar{z}$, avec $z\neq0$.
+    * $\frac{1}{z} = \frac{1}{a+ib} = \frac{a}{a^2+b^2}-i\frac{b}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}\bar{z}$, avec $z\neq0$,
+    * $\frac{z'}{z} = \frac{a'+ib'}{a+ib} = \frac{aa'+bb'}{a^2+b^2}-i\frac{ab'-ba'}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}z'\bar{z}$, avec $z\neq0$.
 
 * Si $z$ et $z'$ sont sous la forme trigonométrique:
-    * Pour simplifier on représente chaque nombre complexe $z$ par $\left[r;\theta\right]$, où $r=|z|$ et $\theta\equiv\arg(z)[2\pi]$.
+    * Pour simplifier on représente chaque nombre complexe $z$ par $\left[r;\theta\right]$, où $r=\lvert z\rvert$ et $\theta\equiv\arg(z)[2\pi]$.
     * $\bar{z} = \overline{\left[r;\theta\right]} = \left[r;-\theta\right]$,
     * $-z = -\left[r;\theta\right] = \left[r;\pi+\theta\right]$,
     * $-\bar{z} = -\overline{\left[r;\theta\right]} = \left[r;\pi-\theta\right]$,
@@ -66,7 +66,7 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
     * $\frac{z'}{z} = \frac{\left[r';\theta'\right]}{\left[r;\theta\right]} = \left[\frac{r'}{r};\theta'-\theta\right]$.
 
 * Si $z$ et $z'$ sont sous la forme exponentielle:
-    * Pour simplifier on représente chaque nombre complexe $z$ par $re^{i\theta}$, où $r=|z|$ et $\theta\equiv\arg(z)[2\pi]$.
+    * Pour simplifier on représente chaque nombre complexe $z$ par $re^{i\theta}$, où $r=\lvert z\rvert$ et $\theta\equiv\arg(z)[2\pi]$.
     * $\bar{z} = \overline{re^{i\theta}} = re^{-i\theta}$,
     * $-z = -re^{i\theta} = re^{i(\pi+\theta)}$,
     * $-\bar{z} = -\overline{re^{i\theta}} = re^{i(\pi-\theta)}$,
