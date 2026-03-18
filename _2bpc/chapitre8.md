@@ -128,29 +128,40 @@ $$
 #### Colinéarité et orthogonalité de vecteurs
 
 * Deux vecteurs $\vec{w}$ et $\vec{w'}$ sont colinéaires, si et seulement si
+    
     $$
     \vec{w'}=k\vec{w},
     \quad\text{où }k\in\mathbb{R}
     $$
+    
     ce qui se traduit par
+    
     $$
     \frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}=k
     \in\mathbb{R}
     $$
+    
     ou encore par
+    
     $$
     \arg\left(\frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}\right) \equiv 0 [\pi]
     $$
+    
 * Deux vecteurs $\vec{w}$ et $\vec{w'}$ sont orthogonaux, si et seulement si
+    
     $$
     \left(\overline{\vec{w},\vec{w'}}\right) \equiv \frac{\pi}{2}[\pi]
     $$
+    
     ce qui se traduit par
+    
     $$
     \small
     \arg\left(\frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}\right) \equiv \frac{\pi}{2} [\pi]
     $$
+    
     ou encore par
+    
     $$
     \frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}=ik
     \in i\mathbb{R}
@@ -159,31 +170,40 @@ $$
 #### alignement et cocyclicité de points
 
 * Des points distincts $A$, $B$ et $C$ sont alignés, si et seulement si
+    
     $$
     \overrightarrow{AB}=k\overrightarrow{AC},
     \quad\text{où }k\in\mathbb{R}
     $$
+    
     ce qui se traduit par
+    
     $$
     \frac{\mathrm{aff}(\overrightarrow{AB})}{\mathrm{aff}(\overrightarrow{AC})}
     =\frac{\mathrm{aff}(B)-\mathrm{aff}(A)}{\mathrm{aff}(C)-\mathrm{aff}(A)}=k
     \in\mathbb{R}
     $$
+    
     ou encore par
+    
     $$
     \arg\left(\frac{\mathrm{aff}(B)-\mathrm{aff}(A)}{\mathrm{aff}(C)-\mathrm{aff}(A)}\right) \equiv 0 [\pi]
     $$
 * Des points distincts $A$, $B$, $C$ et $D$ sont cocycliques, si et seulement si
+    
     $$
     \left(\overline{\overrightarrow{AB},\overrightarrow{AC}}\right) \equiv \left(\overline{\overrightarrow{DB},\overrightarrow{DC}}\right)[\pi]
     $$
+
     ce qui se traduit par
+
     $$
-    \small
     \arg\left(\frac{\mathrm{aff}(\overrightarrow{AC})}{\mathrm{aff}(\overrightarrow{AB})}\times\frac{\mathrm{aff}(\overrightarrow{DB})}{\mathrm{aff}(\overrightarrow{DC})}\right) \equiv
     \arg\left(\frac{\mathrm{aff}(C)-\mathrm{aff}(A)}{\mathrm{aff}(B)-\mathrm{aff}(A)}\times\frac{\mathrm{aff}(B)-\mathrm{aff}(D)}{\mathrm{aff}(C)-\mathrm{aff}(D)}\right) \equiv 0 [\pi]
     $$
+
     ou encore par
+
     $$
     \frac{\mathrm{aff}(C)-\mathrm{aff}(A)}{\mathrm{aff}(B)-\mathrm{aff}(A)}\times\frac{\mathrm{aff}(B)-\mathrm{aff}(D)}{\mathrm{aff}(C)-\mathrm{aff}(D)}=k
     \in\mathbb{R}
