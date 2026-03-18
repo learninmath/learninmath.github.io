@@ -99,8 +99,8 @@ Le plan est muni d'un repère orthonormé $(O; \vec{u}, \vec{v})$.
 
 #### Norme, distance et angle
 
-* $\left\|\vec{w}\right\|=|\mathrm{aff}(\vec{w})|$,
-* $AB = |\mathrm{aff}(B)-\mathrm{aff}(A)|$,
+* $\left\lVert\vec{w}\right\rVert=\lvert\mathrm{aff}(\vec{w})\rvert$,
+* $AB = \lvert\mathrm{aff}(B)-\mathrm{aff}(A)\rvert$,
 * $\left(\overline{\vec{u},\vec{w}}\right) \equiv \arg(\mathrm{aff}(\vec{w}))[2\pi]$,
 * $\left(\overline{\vec{u},\overrightarrow{AB}}\right) \equiv \arg\left(\mathrm{aff}(B)-\mathrm{aff}(A)\right)[2\pi]$,
 * $\left(\overline{\vec{w},\vec{w'}}\right) \equiv \arg\left(\frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}\right)[2\pi]$,
