@@ -230,5 +230,5 @@ $$
 $$
 z_1=\frac{-b+i\sqrt{-\Delta}}{2a}
 \quad\text{et}\quad
-z_2=\frac{-b-i\sqrt{-\Delta}}{2a}
+z_2=\bar{z_1}=\frac{-b-i\sqrt{-\Delta}}{2a}
 $$
