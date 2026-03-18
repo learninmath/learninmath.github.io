@@ -146,7 +146,7 @@ $$
     $$
     \arg\left(\frac{\mathrm{aff}\left(\vec{w'}\right)}{\mathrm{aff}(\vec{w})}\right) \equiv 0 [\pi]
     $$
-    
+
 * Deux vecteurs $\vec{w}$ et $\vec{w'}$ sont orthogonaux, si et seulement si
     
     $$
@@ -214,17 +214,23 @@ $$
 #### Équation de type $z^2=a$
 
 On considère l'équation $(E):\ z^2=a$, où $a$ est un réel.
+
 * Si $a>0$, l'équation $(E)$ admet deux solutions réels
+
 $$
 z_1=\sqrt{a}
 \quad\text{et}\quad
 z_2=-\sqrt{a}.
 $$
+
 * Si $a=0$, l'équation $(E)$ admet une seule solution réel
+
 $$
 z_0=0.
 $$
+
 * Si $a<0$, l'équation $(E)$ admet deux solutions complexes
+
 $$
 z_1=i\sqrt{-a}
 \quad\text{et}\quad
