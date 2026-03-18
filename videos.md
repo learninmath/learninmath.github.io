@@ -6,8 +6,6 @@ permalink: /videos/
 
 # Page des vidéos
 
-Voici une liste de vidéos :
-
 ## TCS: Méthode de Hörner
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLnm-difRg2I7cOLhxqnZW_nkGkxbrbG3Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
