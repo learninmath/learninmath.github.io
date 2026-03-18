@@ -109,18 +109,25 @@ Le plan est muni d'un repère orthonormé $(O; \vec{u}, \vec{v})$.
 #### Milieu, centre et barycentre
 
 * Si $I$ est le milieu d'un segment $[AB]$, alors 
+
 $$
 \mathrm{aff}(I)=\frac{1}{2}(\mathrm{aff}(A)+\mathrm{aff}(B)).
 $$
+
 * Si $G$ est le centre de gravité d'un triangle $ABC$, alors
+
 $$
 \mathrm{aff}(G)=\frac{1}{3}(\mathrm{aff}(A)+\mathrm{aff}(B)+\mathrm{aff}(C)).
 $$
+
 * Si $G$ est le barycentre du système $\lbrace(A;\alpha), (B;\beta)\rbrace$, alors
+
 $$
 \mathrm{aff}(G)=\frac{1}{\alpha+\beta}(\alpha\ \mathrm{aff}(A)+\beta\ \mathrm{aff}(B)).
 $$
+
 * Si $G$ est le barycentre du système $\lbrace(A;\alpha), (B;\beta), (C;\gamma)\rbrace$, alors
+
 $$
 \mathrm{aff}(G)=\frac{1}{\alpha+\beta+\gamma}(\alpha\ \mathrm{aff}(A)+\beta\ \mathrm{aff}(B)+\gamma\ \mathrm{aff}(C)).
 $$
