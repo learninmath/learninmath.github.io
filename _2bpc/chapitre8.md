@@ -31,8 +31,8 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
 
 ### Conjugué, module, argument
 
-* Conjugué: $\bar{z} = \mathrm{Re}(z) - i\ \mathrm{Im}(z)$.
-* Module: $\lvert z\rvert = \small\sqrt{\left(\mathrm{Re}(z)\right)^2 + \left(\mathrm{Im}(z)\right)^2}$ et $\lvert z\rvert^2=z\bar{z}$.
+* Conjugué: $\overline{z} = \mathrm{Re}(z) - i\ \mathrm{Im}(z)$.
+* Module: $\lvert z\rvert = \small\sqrt{\left(\mathrm{Re}(z)\right)^2 + \left(\mathrm{Im}(z)\right)^2}$ et $\lvert z\rvert^2=z\overline{z}$.
 * Argument ($z\neq0$): $\cos(\arg(z)) = \frac{\mathrm{Re}(z)}{\lvert z\rvert}$ et $\sin(\arg(z)) = \frac{\mathrm{Im}(z)}{\lvert z\rvert}$.
 * Relation d'Euler: $e^{i\ \arg(z)}=\cos(\arg(z)) + i\ \sin(\arg(z))$.
 
@@ -40,11 +40,11 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
 
 * Un nombre complexe $z$ est un réel $\left(z\in\mathbb{R}\right)$, si et seulement si l'une des propositions suivantes est vérifiée:
     * $\mathrm{Im}(z)=0$,
-    * $\bar{z}=z$,
+    * $\overline{z}=z$,
     * $\arg(z)\equiv 0[\pi]$.
 * Un nombre complexe $z$ est un imaginaire pur $\left(z\in i\mathbb{R}\right)$, si et seulement si l'une des propositions suivantes est vérifiée:
     * $\mathrm{Re}(z)=0$,
-    * $\bar{z}=-z$,
+    * $\overline{z}=-z$,
     * $\arg(z)\equiv \frac{\pi}{2}[\pi]$.
 
 ### Opérations sur les complexes
@@ -53,23 +53,23 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
     * Pour simplifier on représente chaque nombre complexe $z$ par $a+ib$, où $a=\mathrm{Re}(z)$ et $b=\mathrm{Im}(z)$.
     * $z+z' = (a+ib) + (a'+ib') = (a +a') + i(b + b')$,
     * $zz' = (a+ib) \times (a'+ib') = (aa'-bb') + i(ab'+ba')$,
-    * $\frac{1}{z} = \frac{1}{a+ib} = \frac{a}{a^2+b^2}-i\frac{b}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}\bar{z}$, avec $z\neq0$,
-    * $\frac{z'}{z} = \frac{a'+ib'}{a+ib} = \frac{aa'+bb'}{a^2+b^2}-i\frac{ab'-ba'}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}z'\bar{z}$, avec $z\neq0$.
+    * $\frac{1}{z} = \frac{1}{a+ib} = \frac{a}{a^2+b^2}-i\frac{b}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}\overline{z}$, avec $z\neq0$,
+    * $\frac{z'}{z} = \frac{a'+ib'}{a+ib} = \frac{aa'+bb'}{a^2+b^2}-i\frac{ab'-ba'}{a^2+b^2} = \frac{1}{\lvert z\rvert^2}z'\overline{z}$, avec $z\neq0$.
 
 * Si $z$ et $z'$ sont sous la forme trigonométrique:
     * Pour simplifier on représente chaque nombre complexe $z$ par $\left[r;\theta\right]$, où $r=\lvert z\rvert$ et $\theta\equiv\arg(z)[2\pi]$.
-    * $\bar{z} = \overline{\left[r;\theta\right]} = \left[r;-\theta\right]$,
+    * $\overline{z} = \overline{\left[r;\theta\right]} = \left[r;-\theta\right]$,
     * $-z = -\left[r;\theta\right] = \left[r;\pi+\theta\right]$,
-    * $-\bar{z} = -\overline{\left[r;\theta\right]} = \left[r;\pi-\theta\right]$,
+    * $-\overline{z} = -\overline{\left[r;\theta\right]} = \left[r;\pi-\theta\right]$,
     * $\frac{1}{z} = \frac{1}{\left[r;\theta\right]} = \left[\frac{1}{r};-\theta\right]$
     * $zz' = \left[r;\theta\right]\times\left[r';\theta'\right] = \left[r r';\theta+\theta'\right]$,
     * $\frac{z'}{z} = \frac{\left[r';\theta'\right]}{\left[r;\theta\right]} = \left[\frac{r'}{r};\theta'-\theta\right]$.
 
 * Si $z$ et $z'$ sont sous la forme exponentielle:
     * Pour simplifier on représente chaque nombre complexe $z$ par $re^{i\theta}$, où $r=\lvert z\rvert$ et $\theta\equiv\arg(z)[2\pi]$.
-    * $\bar{z} = \overline{re^{i\theta}} = re^{-i\theta}$,
+    * $\overline{z} = \overline{re^{i\theta}} = re^{-i\theta}$,
     * $-z = -re^{i\theta} = re^{i(\pi+\theta)}$,
-    * $-\bar{z} = -\overline{re^{i\theta}} = re^{i(\pi-\theta)}$,
+    * $-\overline{z} = -\overline{re^{i\theta}} = re^{i(\pi-\theta)}$,
     * $\frac{1}{z} = \frac{1}{re^{i\theta}} = \frac{1}{r}e^{-i\theta}$
     * $zz' = re^{i\theta}\times r'e^{i\theta'} = rr'e^{i(\theta+\theta')}$,
     * $\frac{z'}{z} = \frac{r'e^{i\theta'}}{re^{i\theta}} = \frac{r'}{r}e^{i(\theta'-\theta)}$,
@@ -268,5 +268,5 @@ $$
 $$
 z_1=\frac{-b+i\sqrt{-\Delta}}{2a}
 \quad\text{et}\quad
-z_2=\bar{z_1}=\frac{-b-i\sqrt{-\Delta}}{2a}
+z_2=\overline{z_1}=\frac{-b-i\sqrt{-\Delta}}{2a}
 $$
