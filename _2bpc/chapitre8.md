@@ -250,16 +250,21 @@ On considère l'équation $(E):\ az^2+bz+c=0$, où $a$, $b$ et $c$ sont des rée
 
 Soit $\Delta$ le discriminant de l'équation $(E)$.
 * Si $\Delta>0$, l'équation $(E)$ admet deux solutions réels
+
 $$
 z_1=\frac{-b+\sqrt{\Delta}}{2a}
 \quad\text{et}\quad
 z_2=\frac{-b-\sqrt{\Delta}}{2a}.
 $$
+
 * Si $\Delta=0$, l'équation $(E)$ admet une seule solution réel
+
 $$
 z_0=\frac{-b}{2a}.
 $$
+
 * Si $\Delta<0$, l'équation $(E)$ admet deux solutions complexes
+
 $$
 z_1=\frac{-b+i\sqrt{-\Delta}}{2a}
 \quad\text{et}\quad
