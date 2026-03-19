@@ -9,6 +9,7 @@ permalink: /
 ## Annonces TCSF (3 et 4)
 
 - Aucune annonce pour l'instant.
+
 <!-- - Devoir libre 4 
 <a href="{{ site.url }}{{ site.baseurl }}/tcs/DL4.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
@@ -22,6 +23,7 @@ permalink: /
 ## Annonces 2BPC (1 et 4)
 
 - Aucune annonce pour l'instant.
+
 <!-- - Devoir libre 4 
 <a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL4.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
