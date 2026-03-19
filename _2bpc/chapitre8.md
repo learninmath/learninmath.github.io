@@ -74,6 +74,23 @@ $i\mathbb{R}=\lbrace ib\ /\ b\in\mathbb{R}\text{ et }i^2=-1\rbrace$.
     * $zz' = re^{i\theta}\times r'e^{i\theta'} = rr'e^{i(\theta+\theta')}$,
     * $\frac{z'}{z} = \frac{r'e^{i\theta'}}{re^{i\theta}} = \frac{r'}{r}e^{i(\theta'-\theta)}$,
 
+#### Formules importantes
+
+* Formule d'Euler: Pour tout réel $x$, on a
+
+$$
+\cos(x) = \frac{e^{ix}+e^{-ix}}{2}
+\quad\text{ et }\quad
+\sin(x) = \frac{e^{ix}-e^{-ix}}{2i}
+$$
+
+* Formules de Moivre: Pour tout réel $x$ et tout entier naturel $n$, on a
+
+$$
+\left(\cos(x) + i\ \sin(x)\right)^n
+=\cos(nx) + i\ \sin(nx)
+$$
+
 ### Plan complexe
 
 Le plan est muni d'un repère orthonormé $(O; \vec{u}, \vec{v})$.
