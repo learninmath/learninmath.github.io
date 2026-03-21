@@ -223,7 +223,7 @@ $$
 
     $$
     \arg\left(\frac{\mathrm{aff}(\overrightarrow{AC})}{\mathrm{aff}(\overrightarrow{AB})}\times\frac{\mathrm{aff}(\overrightarrow{DB})}{\mathrm{aff}(\overrightarrow{DC})}\right) \equiv
-    \arg\left(\frac{\mathrm{aff}(C)-\mathrm{aff}(A)}{\mathrm{aff}(B)-\mathrm{aff}(A)}\times\frac{\mathrm{aff}(B)-\mathrm{aff}(D)}{\mathrm{aff}(C)-\mathrm{aff}(D)}\right)[\pi] \equiv 0 [\pi]
+    \arg\left(\frac{\mathrm{aff}(C)-\mathrm{aff}(A)}{\mathrm{aff}(B)-\mathrm{aff}(A)}\times\frac{\mathrm{aff}(B)-\mathrm{aff}(D)}{\mathrm{aff}(C)-\mathrm{aff}(D)}\right)[2\pi] \equiv 0 [\pi]
     $$
 
     ou encore par
