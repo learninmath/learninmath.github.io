@@ -96,9 +96,9 @@ On peut organiser les calculs à l'aide du tableau suivant:
   <table style="border-collapse: collapse; text-align: center;">
     <thead>
       <tr>
-        <th>Dérivation</th>
-        <th>Intégration</th>
-        <th>Produit</th>
+        <th style="text-align:center">Dérivation</th>
+        <th style="text-align:center">Intégration</th>
+        <th style="text-align:center">Produit</th>
       </tr>
     </thead>
     <tbody>
