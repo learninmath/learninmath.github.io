@@ -32,7 +32,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 | $a \neq 0$ et $b = 0$ | $y' = a y$ | $f(x) = C e^{a x}$ |
 | $a \neq 0$ et $b \neq 0$ | $y' = a y + b$ | $f(x) = C e^{a x} - \frac{b}{a}$ |
 
-> [!IMPORTANT]  
+> [!IMPORTANT] <strong>Important</strong>
 > Pour tous réels $x_0$ et $y_0$, il existe une unique solution particulière vérifiant $f(x_0) = y_0$.
 
 ### Équations différentielles du second ordre : $y'' + a y' + b y = 0$
