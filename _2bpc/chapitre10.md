@@ -50,13 +50,13 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 | une seule solution réelle $r$ | $f(x) = (C_1 x + C_2) e^{r x}$ |
 | deux solutions complexes $r$ et $\overline{r}$ | $f(x) = e^{\operatorname{Re}(r) x} (C_1 \cos(\operatorname{Im}(r) x) + C_2 \sin(\operatorname{Im}(r) x))$ |
 
-> [!IMPORTANT]  
+> [!IMPORTANT] <strong>Important</strong>
 > Pour $y'' + \omega^2 y = 0$ ($\omega > 0$), la solution générale, où $(C_1; C_2)\in\mathbb{R}^2$, est
 > 
 > $$
 > f(x) = C_1 \cos(\omega x) + C_2 \sin(\omega x).
 > $$
 
-> [!IMPORTANT]  
+> [!IMPORTANT] <strong>Important</strong>
 > Pour tous réels $x_1$, $x_2$, $y_1$, $y_2$, il existe une unique solution particulière vérifiant $f(x_1) = y_1$ et $f'(x_2) = y_2$.
 
