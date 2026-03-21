@@ -40,7 +40,6 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 #### Définitions
 - Une équation de la forme $y'' + a y' + b y = 0$ est une **équation différentielle du second ordre**.
 - L'**équation caractéristique** associée est $r^2 + a r + b = 0$.
-- Une fonction $f$ dérivable sur $\mathbb{R}$ vérifiant $f''(x) + a f'(x) + b f(x) = 0$ pour tout $x \in \mathbb{R}$ est une **solution particulière**.
 - La **solution générale** regroupe toutes les solutions particulières et s'exprime avec deux constantes réelles $C_1$ et $C_2$.
 
 #### Solutions générales
