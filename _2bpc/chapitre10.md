@@ -49,7 +49,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 |:---:|:---:|
 | deux solutions réelles $r_1$, $r_2$ | $f(x) = C_1 e^{r_1 x} + C_2 e^{r_2 x}$ |
 | une seule solution réelle $r$ | $f(x) = (C_1 x + C_2) e^{r x}$ |
-| deux solutions complexes conjuguées $r$, $\overline{r}$ | $f(x) = e^{\operatorname{Re}(r) x} (C_1 \cos(\operatorname{Im}(r) x) + C_2 \sin(\operatorname{Im}(r) x))$ |
+| deux solutions complexes $r$, $\overline{r}$ | $f(x) = e^{\operatorname{Re}(r) x} (C_1 \cos(\operatorname{Im}(r) x) + C_2 \sin(\operatorname{Im}(r) x))$ |
 
 > [!IMPORTANT]  
 > Pour $y'' + \omega^2 y = 0$ ($\omega > 0$), la solution générale est
