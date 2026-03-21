@@ -16,7 +16,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 
 ## À retenir
 
-### Équations différentielles du premier ordre : $y' = ay + b$
+### Équations différentielles de type $y' = ay + b$
 
 #### Définitions
 - Une équation de la forme $y' = ay + b$, où $a$ et $b$ sont des réels, est une **équation différentielle du premier ordre**.
@@ -35,7 +35,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 > [!IMPORTANT] <strong>Important</strong>
 > Pour tous réels $x_0$ et $y_0$, il existe une unique solution particulière vérifiant $f(x_0) = y_0$.
 
-### Équations différentielles du second ordre : $y'' + a y' + b y = 0$
+### Équations différentielles de type $y'' + a y' + b y = 0$
 
 #### Définitions
 - Une équation de la forme $y'' + a y' + b y = 0$ est une **équation différentielle du second ordre**.
