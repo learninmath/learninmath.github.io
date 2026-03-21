@@ -51,7 +51,7 @@ Il se peut que des erreurs soient présentes dans le PDF ; elles seront corrigé
 | deux solutions complexes $r$ et $\overline{r}$ | $f(x) = e^{\operatorname{Re}(r) x} (C_1 \cos(\operatorname{Im}(r) x) + C_2 \sin(\operatorname{Im}(r) x))$ |
 
 > [!IMPORTANT]  
-> Pour $y'' + \omega^2 y = 0$ ($\omega > 0$), la solution générale est
+> Pour $y'' + \omega^2 y = 0$ ($\omega > 0$), la solution générale, où $(C_1; C_2)\in\mathbb{R}^2$, est
 > 
 > $$
 > f(x) = C_1 \cos(\omega x) + C_2 \sin(\omega x).
