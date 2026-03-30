@@ -1,7 +1,7 @@
 ---
 layout: chapitre
 chapter: 10
-title: "Généralités sur les fonctions"
+title: "Transformations dans le plan"
 permalink: /tcs/chapitre10/
 ---
 
