@@ -1,0 +1,6 @@
+Je veux créer une application web, andoid et osx pour générer un cachier des textes pour les prof du maroc en latex pdf excel ou word à partir d'un formulaire à compléter, dans l'ordre suivant:
+1. Créer un profil pour l'année scolaire en cours et entrer l'emploi du temps et les dates des jours fériées afin de générer une partie du cahier pour chaque classe et construire un tableau (date, contenu, remarques,..) de toute l'année scolaire (Début et fin à préciser) pour chaque classe.
+2. Remplir le contenu d'un ou plusieurs chapitres (Sections ou sous-sections) (possibilité copier coller), chaque ligne va être un choix d'une liste représentant tout le chapitre.
+3. Remplir le formulaire: choisir le jour (choisir par défaut today), choix du contenu du jour (chapitre, sections, sous-sections, séries d'exercices, Devoirs libres, Devoirs surveillé).
+4. Possibilité d'uploader des pdfs ou images (Séries ou devoirs) pour mettre à la fin de la partie de la classe concerné.
+5. Possibilité d'Exporter le tableau à partir d'une date jusqu'a une autre, où bien le tout rempli
