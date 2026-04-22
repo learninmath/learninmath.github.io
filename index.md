@@ -14,11 +14,11 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/tcs/DL5.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
-<!-- - Correction du devoir libre 5 
-<a href="{{ site.url }}{{ site.baseurl }}/tcs/DL4-cor.pdf" target="_blank">
+- Correction du devoir libre 5 
+<a href="{{ site.url }}{{ site.baseurl }}/tcs/DL5-cor.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
-</a>. -->
-- Devoir surveillé 5: le lundi 20/04/2026.
+</a>.
+- Devoir surveillé 5: le lundi 27/04/2026.
 
 ## Annonces 2BPC (1 et 4)
 
@@ -28,8 +28,8 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL5.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
-<!-- - Correction du devoir libre 4 
-<a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL4-cor.pdf" target="_blank">
+- Correction du devoir libre 4 
+<a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL5-cor.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
-</a>. -->
+</a>.
 - Devoir surveillé 4: le jeudi 23/04/2026.
