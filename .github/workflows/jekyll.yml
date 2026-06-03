@@ -78,9 +78,9 @@ jobs:
           bundler-cache: true
 
       # Option A (remove if using setup-ruby and not needed):
-      - name: Ensure Bundler and Ruby build environment
-        run: |
-          gem install bundler --no-document
+      # - name: Ensure Bundler and Ruby build environment
+      #   run: |
+      #     gem install bundler --no-document
 
       # Option B (minimal change if you prefer):
       - name: Ensure Bundler and Ruby build environment
