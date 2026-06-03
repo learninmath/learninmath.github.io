@@ -63,12 +63,26 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
       - name: Install system dependencies for sass-embedded
         run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential cmake pkg-config \
-            libssl-dev libffi-dev libxml2 libxslt1-dev zlib1g-dev \
-            curl unzip xz-utils
+            sudo apt-get update
+            sudo apt-get install -y build-essential cmake pkg-config \
+              libssl-dev libffi-dev libxml2 libxslt1-dev zlib1g-dev \
+              curl unzip xz-utils
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      # Option A (remove if using setup-ruby and not needed):
       - name: Ensure Bundler and Ruby build environment
         run: |
           gem install bundler --no-document
+
+      # Option B (minimal change if you prefer):
+      - name: Ensure Bundler and Ruby build environment
+        run: |
+          sudo gem install bundler --no-document
