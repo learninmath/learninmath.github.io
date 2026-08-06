@@ -6,7 +6,7 @@ permalink: /
 
 # Bienvenue !
 
-## Annonces TCSF (3 et 4)
+<!-- ## Annonces TCSF (3 et 4) -->
 
 <!-- - Aucune annonce pour l'instant. -->
 
@@ -19,9 +19,9 @@ permalink: /
 <i class="fa-solid fa-file-pdf"></i>
 </a>. -->
 
-- Devoir surveillé de rattrapage: le lundi 15/06/2026.
+<!-- - Devoir surveillé de rattrapage: le lundi 15/06/2026. -->
 
-## Annonces 2BPC (1 et 4)
+<!-- ## Annonces 2BPC (1 et 4) -->
 
 <!-- - Aucune annonce pour l'instant. -->
 
