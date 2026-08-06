@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-minimal_mistakes_skin: "contrast" # "default", "air", "aqua", "contrast", "dark", "dirt", "forest", "garden", "ice", "light", "mint", "neon", "plum", "sunrise", "wood"
+minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "forest", "garden", "ice", "light", "mint", "neon", "plum", "sunrise", "wood"
 search: true
 mathjax: true
 
