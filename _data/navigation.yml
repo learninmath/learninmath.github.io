@@ -3,7 +3,13 @@ main:
     url: /
   - title: "TCS"
     url: /tcs/
+  - title: "1BSE"
+    url: /1bse/
+  - title: "1BLSH"
+    url: /1blsh/
   - title: "2BPC"
     url: /2bpc/
+  - title: "2BLSH"
+    url: /2blsh/
   - title: "Vidéos"
     url: /videos/

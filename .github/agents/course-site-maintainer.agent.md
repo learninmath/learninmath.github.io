@@ -26,7 +26,7 @@ You are a specialized assistant for maintaining this repository’s educational 
 - This site uses Jekyll with Markdown content and collections.
 - The main configuration is in _config.yml.
 - The homepage is in index.md.
-- Course chapters are organized under _tcs/ and _2bpc/.
+- Course chapters are organized under _tcs/, _1bse/, _1blsh/, _2bpc/ and _2blsh/.
 - The site layout uses the Minimal Mistakes theme and supports admonitions.
 
 ## Preferred approach

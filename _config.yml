@@ -53,3 +53,9 @@ collections:
     output: true
   2bpc:
     output: true
+  1bse:
+    output: true
+  1blsh:
+    output: true
+  2blsh:
+    output: true
