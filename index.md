@@ -6,14 +6,14 @@ permalink: /
 
 # Bienvenue !
 
-<!-- ## Annonces TCSF (3 et 4) -->
+## Annonces 2BLSH (1 et 2)
 
 <!-- - Aucune annonce pour l'instant. -->
 
-<!-- - Devoir libre 5 
-<a href="{{ site.url }}{{ site.baseurl }}/tcs/DL5.pdf" target="_blank">
+- Devoir libre 5 
+<a href="{{ site.url }}{{ site.baseurl }}/2blsh/DL1.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
-</a>. -->
+</a>.
 <!-- - Correction du devoir libre 5 
 <a href="{{ site.url }}{{ site.baseurl }}/tcs/DL5-cor.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
