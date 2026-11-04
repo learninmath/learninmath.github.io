@@ -25,7 +25,7 @@ permalink: /
 
 <!-- - Aucune annonce pour l'instant. -->
 
-Devoir libre 1
+- Devoir libre 1
 <a href="{{ site.url }}{{ site.baseurl }}/1bse/DL1.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
