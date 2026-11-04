@@ -32,5 +32,6 @@ permalink: /
 <!-- - Correction du devoir libre 5 
 <a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL5-cor.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
-</a>.
-- Devoir surveillé 4: le jeudi 23/04/2026. -->
+</a>. -->
+
+<!-- - Devoir surveillé 4: le jeudi 23/04/2026.  -->
