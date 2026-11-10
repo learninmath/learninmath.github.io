@@ -19,7 +19,7 @@ permalink: /
 <i class="fa-solid fa-file-pdf"></i>
 </a>. -->
 
-<!-- - Devoir surveillé de rattrapage: le lundi 15/06/2026. -->
+- Devoir surveillé de rattrapage: le samedi 14/11/2026.
 
 ## Annonces 1BSE (3, 4 et 5)
 
@@ -29,9 +29,9 @@ permalink: /
 <a href="{{ site.url }}{{ site.baseurl }}/1bse/DL1.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
 </a>.
-<!-- - Correction du devoir libre 5 
-<a href="{{ site.url }}{{ site.baseurl }}/2bpc/DL5-cor.pdf" target="_blank">
+- Correction du devoir libre 1
+<a href="{{ site.url }}{{ site.baseurl }}/1bse/DL1-corr.pdf" target="_blank">
 <i class="fa-solid fa-file-pdf"></i>
-</a>. -->
+</a>.
 
-<!-- - Devoir surveillé 4: le jeudi 23/04/2026.  -->
+- Devoir surveillé 1: le vendredi 13/11/2026 et le samedi 14/11/2026.
