@@ -35,3 +35,18 @@ permalink: /
 </a>.
 
 - Devoir surveillé 1: le vendredi 13/11/2026 et le samedi 14/11/2026.
+
+## Annonces 1BLSH 2
+
+<!-- - Aucune annonce pour l'instant. -->
+
+- Devoir libre 1
+<a href="{{ site.url }}{{ site.baseurl }}/1bse/DL1.pdf" target="_blank">
+<i class="fa-solid fa-file-pdf"></i>
+</a>.
+<!-- - Correction du devoir libre 1
+<a href="{{ site.url }}{{ site.baseurl }}/1bse/DL1-corr.pdf" target="_blank">
+<i class="fa-solid fa-file-pdf"></i>
+</a>. -->
+
+- Devoir surveillé 1: le lundi 23/11/2026.
